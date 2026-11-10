@@ -1,0 +1,2886 @@
+{
+ "voices": {
+  "nian": {
+   "voice": "zh-CN-YunxiaNeural",
+   "rate": "+0%"
+  },
+  "dad": {
+   "voice": "zh-CN-YunxiNeural",
+   "rate": "-5%"
+  }
+ },
+ "clips": {
+  "ben-mo/0-dad": {
+   "hash": "0f11fa022e4a",
+   "seconds": 18.7
+  },
+  "ben-mo/0-nian": {
+   "hash": "5a2cb6e69d22",
+   "seconds": 6.41
+  },
+  "ben-mo/1-dad": {
+   "hash": "199640e1491b",
+   "seconds": 18.84
+  },
+  "ben-mo/1-nian": {
+   "hash": "fb5163d3372f",
+   "seconds": 5.28
+  },
+  "ben-mo/2-dad": {
+   "hash": "165c3a9aba24",
+   "seconds": 19.18
+  },
+  "ben-mo/2-nian": {
+   "hash": "0e373cd1c77f",
+   "seconds": 4.49
+  },
+  "ben-mo/3-dad": {
+   "hash": "6b0a62b30fa8",
+   "seconds": 16.32
+  },
+  "ben-mo/3-nian": {
+   "hash": "c74f7223b214",
+   "seconds": 6.36
+  },
+  "ben-mo/4-dad": {
+   "hash": "bb7de7afaded",
+   "seconds": 18.34
+  },
+  "ben-mo/4-nian": {
+   "hash": "e79d9e310dfd",
+   "seconds": 6.36
+  },
+  "ben-mo/5-dad": {
+   "hash": "16f8fa98e3f6",
+   "seconds": 15.55
+  },
+  "ben-mo/5-nian": {
+   "hash": "b26c367f5d11",
+   "seconds": 11.52
+  },
+  "biang/0-dad": {
+   "hash": "cb777743d8cd",
+   "seconds": 18.96
+  },
+  "biang/0-nian": {
+   "hash": "39993255f000",
+   "seconds": 7.08
+  },
+  "biang/1-dad": {
+   "hash": "55e4f3358b0e",
+   "seconds": 15.1
+  },
+  "biang/1-nian": {
+   "hash": "10906eb22357",
+   "seconds": 6.26
+  },
+  "biang/2-dad": {
+   "hash": "7a22d0937f64",
+   "seconds": 16.75
+  },
+  "biang/2-nian": {
+   "hash": "4e85d2e66020",
+   "seconds": 5.38
+  },
+  "biang/3-dad": {
+   "hash": "8cccfde0140c",
+   "seconds": 16.99
+  },
+  "biang/3-nian": {
+   "hash": "8f442c47901a",
+   "seconds": 4.66
+  },
+  "biang/4-dad": {
+   "hash": "f53f985d7210",
+   "seconds": 22.87
+  },
+  "biang/4-nian": {
+   "hash": "cb2f2827d751",
+   "seconds": 4.3
+  },
+  "biang/5-dad": {
+   "hash": "af0e5e743ff2",
+   "seconds": 19.06
+  },
+  "biang/5-nian": {
+   "hash": "df9deb21d6a4",
+   "seconds": 4.78
+  },
+  "biang/6-dad": {
+   "hash": "19305a94d278",
+   "seconds": 9.96
+  },
+  "biang/6-nian": {
+   "hash": "ba19b6b83ede",
+   "seconds": 13.01
+  },
+  "big-numbers/0-dad": {
+   "hash": "bbe207eaa9bd",
+   "seconds": 17.14
+  },
+  "big-numbers/0-nian": {
+   "hash": "cb5192394e7a",
+   "seconds": 4.49
+  },
+  "big-numbers/1-dad": {
+   "hash": "a9f95ff5de08",
+   "seconds": 24.14
+  },
+  "big-numbers/1-nian": {
+   "hash": "e67c62e5272f",
+   "seconds": 4.87
+  },
+  "big-numbers/2-dad": {
+   "hash": "d2365116473d",
+   "seconds": 22.06
+  },
+  "big-numbers/2-nian": {
+   "hash": "96069cab1e83",
+   "seconds": 5.06
+  },
+  "big-numbers/3-dad": {
+   "hash": "13fa7a9290c3",
+   "seconds": 17.11
+  },
+  "big-numbers/3-nian": {
+   "hash": "555a73bc8efc",
+   "seconds": 4.1
+  },
+  "big-numbers/4-dad": {
+   "hash": "554bea00e8c3",
+   "seconds": 16.54
+  },
+  "big-numbers/4-nian": {
+   "hash": "18f79d1695d9",
+   "seconds": 7.08
+  },
+  "big-numbers/5-dad": {
+   "hash": "f5b18708b8f8",
+   "seconds": 11.4
+  },
+  "big-numbers/5-nian": {
+   "hash": "9ab51efd0002",
+   "seconds": 13.25
+  },
+  "bird-radical/0-dad": {
+   "hash": "8eb5b0220c37",
+   "seconds": 18.29
+  },
+  "bird-radical/0-nian": {
+   "hash": "9045f928f5f2",
+   "seconds": 6
+  },
+  "bird-radical/1-dad": {
+   "hash": "ef65b0a62f5c",
+   "seconds": 20.54
+  },
+  "bird-radical/1-nian": {
+   "hash": "7f9e774f86d7",
+   "seconds": 3.67
+  },
+  "bird-radical/2-dad": {
+   "hash": "db0495fe4149",
+   "seconds": 19.66
+  },
+  "bird-radical/2-nian": {
+   "hash": "3b8c24efbdd7",
+   "seconds": 5.78
+  },
+  "bird-radical/3-dad": {
+   "hash": "c4a455df8a17",
+   "seconds": 19.13
+  },
+  "bird-radical/3-nian": {
+   "hash": "7f64fde0bd93",
+   "seconds": 5.09
+  },
+  "bird-radical/4-dad": {
+   "hash": "35f6b726054e",
+   "seconds": 16.1
+  },
+  "bird-radical/4-nian": {
+   "hash": "8c2b1b787493",
+   "seconds": 5.59
+  },
+  "bird-radical/5-dad": {
+   "hash": "861546eadd3e",
+   "seconds": 21.58
+  },
+  "bird-radical/5-nian": {
+   "hash": "996cda6ee433",
+   "seconds": 5.45
+  },
+  "bird-radical/6-dad": {
+   "hash": "a65edf0ad483",
+   "seconds": 12.98
+  },
+  "bird-radical/6-nian": {
+   "hash": "85e1efde6333",
+   "seconds": 14.28
+  },
+  "bright/0-dad": {
+   "hash": "0cb757945cce",
+   "seconds": 18.65
+  },
+  "bright/0-nian": {
+   "hash": "dbba521a9488",
+   "seconds": 6.94
+  },
+  "bright/1-dad": {
+   "hash": "16f236e16496",
+   "seconds": 18.14
+  },
+  "bright/1-nian": {
+   "hash": "af00bbfd5b08",
+   "seconds": 3.6
+  },
+  "bright/2-dad": {
+   "hash": "9625496534cb",
+   "seconds": 18.7
+  },
+  "bright/2-nian": {
+   "hash": "2bc767573c00",
+   "seconds": 5.04
+  },
+  "bright/3-dad": {
+   "hash": "4428d176b089",
+   "seconds": 15.6
+  },
+  "bright/3-nian": {
+   "hash": "bcc8c5a30b11",
+   "seconds": 5.02
+  },
+  "bright/4-dad": {
+   "hash": "ae3b912222cf",
+   "seconds": 14.9
+  },
+  "bright/4-nian": {
+   "hash": "87b9c09e06b5",
+   "seconds": 4.94
+  },
+  "bright/5-dad": {
+   "hash": "cd42470bddea",
+   "seconds": 9.72
+  },
+  "bright/5-nian": {
+   "hash": "327c6cc3ce04",
+   "seconds": 13.3
+  },
+  "brush-slips/0-dad": {
+   "hash": "71792e3190ec",
+   "seconds": 16.97
+  },
+  "brush-slips/0-nian": {
+   "hash": "04c7b8423cbb",
+   "seconds": 6.1
+  },
+  "brush-slips/1-dad": {
+   "hash": "1c5e2f0a3f68",
+   "seconds": 21.48
+  },
+  "brush-slips/1-nian": {
+   "hash": "8b026c5c8931",
+   "seconds": 3.7
+  },
+  "brush-slips/2-dad": {
+   "hash": "6b1bc3999858",
+   "seconds": 18.67
+  },
+  "brush-slips/2-nian": {
+   "hash": "40a267a3eb70",
+   "seconds": 3.6
+  },
+  "brush-slips/3-dad": {
+   "hash": "04249aa4e617",
+   "seconds": 23.57
+  },
+  "brush-slips/3-nian": {
+   "hash": "68a1559b03ca",
+   "seconds": 3.41
+  },
+  "brush-slips/4-dad": {
+   "hash": "b2b2535a74cd",
+   "seconds": 21.86
+  },
+  "brush-slips/4-nian": {
+   "hash": "9baed1205a19",
+   "seconds": 4.54
+  },
+  "brush-slips/5-dad": {
+   "hash": "fe7fa3aa2df3",
+   "seconds": 18.62
+  },
+  "brush-slips/5-nian": {
+   "hash": "e0a8718a23f0",
+   "seconds": 4.54
+  },
+  "brush-slips/6-dad": {
+   "hash": "107ee55cfdc8",
+   "seconds": 12.65
+  },
+  "brush-slips/6-nian": {
+   "hash": "030365b7b282",
+   "seconds": 11.74
+  },
+  "cangjie/0-dad": {
+   "hash": "76f781d99625",
+   "seconds": 22.63
+  },
+  "cangjie/0-nian": {
+   "hash": "295976abf0b3",
+   "seconds": 7.46
+  },
+  "cangjie/1-dad": {
+   "hash": "6b3a9123f1c1",
+   "seconds": 20.33
+  },
+  "cangjie/1-nian": {
+   "hash": "ae3206cd51a5",
+   "seconds": 4.42
+  },
+  "cangjie/2-dad": {
+   "hash": "162c3c69615b",
+   "seconds": 20.47
+  },
+  "cangjie/2-nian": {
+   "hash": "b168810045f2",
+   "seconds": 4.9
+  },
+  "cangjie/3-dad": {
+   "hash": "678c8201063b",
+   "seconds": 24.02
+  },
+  "cangjie/3-nian": {
+   "hash": "381599e8af47",
+   "seconds": 4.68
+  },
+  "cangjie/4-dad": {
+   "hash": "a97ce39a91dd",
+   "seconds": 20.21
+  },
+  "cangjie/4-nian": {
+   "hash": "7390d28ebf71",
+   "seconds": 5.66
+  },
+  "cangjie/5-dad": {
+   "hash": "395acaf06dd3",
+   "seconds": 21.43
+  },
+  "cangjie/5-nian": {
+   "hash": "f1d5183e82e7",
+   "seconds": 4.27
+  },
+  "cangjie/6-dad": {
+   "hash": "360b962bf4b5",
+   "seconds": 13.44
+  },
+  "cangjie/6-nian": {
+   "hash": "6634c2a966d8",
+   "seconds": 9.38
+  },
+  "dog-nose/0-dad": {
+   "hash": "0486b8fa2f3a",
+   "seconds": 17.23
+  },
+  "dog-nose/0-nian": {
+   "hash": "a17327414964",
+   "seconds": 4.66
+  },
+  "dog-nose/1-dad": {
+   "hash": "b2a12bb37588",
+   "seconds": 21.53
+  },
+  "dog-nose/1-nian": {
+   "hash": "12a7ef5a6193",
+   "seconds": 4.63
+  },
+  "dog-nose/2-dad": {
+   "hash": "19437330502a",
+   "seconds": 19.7
+  },
+  "dog-nose/2-nian": {
+   "hash": "5166a8c179f4",
+   "seconds": 5.59
+  },
+  "dog-nose/3-dad": {
+   "hash": "1cd5d5d822fb",
+   "seconds": 20.88
+  },
+  "dog-nose/3-nian": {
+   "hash": "541d449d3b26",
+   "seconds": 5.45
+  },
+  "dog-nose/4-dad": {
+   "hash": "2d674bbc2d83",
+   "seconds": 21.72
+  },
+  "dog-nose/4-nian": {
+   "hash": "92b0ab75e5ce",
+   "seconds": 6.29
+  },
+  "dog-nose/5-dad": {
+   "hash": "032f9bc5dab6",
+   "seconds": 18.41
+  },
+  "dog-nose/5-nian": {
+   "hash": "c68213cd051e",
+   "seconds": 5.14
+  },
+  "dog-nose/6-dad": {
+   "hash": "539f9e023b1c",
+   "seconds": 13.87
+  },
+  "dog-nose/6-nian": {
+   "hash": "b32f75faa22d",
+   "seconds": 12.41
+  },
+  "dog-radical/0-dad": {
+   "hash": "26807851a3d4",
+   "seconds": 20.78
+  },
+  "dog-radical/0-nian": {
+   "hash": "9479d510c943",
+   "seconds": 5.45
+  },
+  "dog-radical/1-dad": {
+   "hash": "473611479110",
+   "seconds": 21.34
+  },
+  "dog-radical/1-nian": {
+   "hash": "d28428d868d4",
+   "seconds": 5.18
+  },
+  "dog-radical/2-dad": {
+   "hash": "c2b50231d3b1",
+   "seconds": 17.21
+  },
+  "dog-radical/2-nian": {
+   "hash": "c024aa556aef",
+   "seconds": 4.13
+  },
+  "dog-radical/3-dad": {
+   "hash": "a2adfb78ac4a",
+   "seconds": 15.65
+  },
+  "dog-radical/3-nian": {
+   "hash": "609183bc9894",
+   "seconds": 3.82
+  },
+  "dog-radical/4-dad": {
+   "hash": "033395b20dbc",
+   "seconds": 22.63
+  },
+  "dog-radical/4-nian": {
+   "hash": "bf9d76743898",
+   "seconds": 5.18
+  },
+  "dog-radical/5-dad": {
+   "hash": "447b31229e64",
+   "seconds": 18.89
+  },
+  "dog-radical/5-nian": {
+   "hash": "a6759041f3c2",
+   "seconds": 5.83
+  },
+  "dog-radical/6-dad": {
+   "hash": "872820229b77",
+   "seconds": 12.48
+  },
+  "dog-radical/6-nian": {
+   "hash": "2360960e04b5",
+   "seconds": 11.78
+  },
+  "double-xi/0-dad": {
+   "hash": "33ecedf05c62",
+   "seconds": 15.79
+  },
+  "double-xi/0-nian": {
+   "hash": "dae1a036fe87",
+   "seconds": 5.23
+  },
+  "double-xi/1-dad": {
+   "hash": "e738511e0f09",
+   "seconds": 16.2
+  },
+  "double-xi/1-nian": {
+   "hash": "baad09034fc8",
+   "seconds": 5.14
+  },
+  "double-xi/2-dad": {
+   "hash": "101e79489ba2",
+   "seconds": 19.78
+  },
+  "double-xi/2-nian": {
+   "hash": "90e19f9aa62c",
+   "seconds": 4.44
+  },
+  "double-xi/3-dad": {
+   "hash": "d6fc3a0447c1",
+   "seconds": 16.9
+  },
+  "double-xi/3-nian": {
+   "hash": "2adafe557616",
+   "seconds": 6.17
+  },
+  "double-xi/4-dad": {
+   "hash": "83cf507b5401",
+   "seconds": 18.55
+  },
+  "double-xi/4-nian": {
+   "hash": "60c865468cf4",
+   "seconds": 4.73
+  },
+  "double-xi/5-dad": {
+   "hash": "09c73dd2a70f",
+   "seconds": 16.39
+  },
+  "double-xi/5-nian": {
+   "hash": "05ca4fb2ae72",
+   "seconds": 6.77
+  },
+  "double-xi/6-dad": {
+   "hash": "1872165c42f8",
+   "seconds": 10.9
+  },
+  "double-xi/6-nian": {
+   "hash": "2544ca1387d4",
+   "seconds": 12.72
+  },
+  "face-chars/0-dad": {
+   "hash": "12985963c5da",
+   "seconds": 16.58
+  },
+  "face-chars/0-nian": {
+   "hash": "afa2618a4047",
+   "seconds": 6.05
+  },
+  "face-chars/1-dad": {
+   "hash": "d0872bd4a06b",
+   "seconds": 19.75
+  },
+  "face-chars/1-nian": {
+   "hash": "0cae05da1d07",
+   "seconds": 4.7
+  },
+  "face-chars/2-dad": {
+   "hash": "355ec172a83e",
+   "seconds": 14.74
+  },
+  "face-chars/2-nian": {
+   "hash": "0d0ed0cb495e",
+   "seconds": 4.03
+  },
+  "face-chars/3-dad": {
+   "hash": "1d653eaa1d07",
+   "seconds": 19.97
+  },
+  "face-chars/3-nian": {
+   "hash": "a21403951b86",
+   "seconds": 5.18
+  },
+  "face-chars/4-dad": {
+   "hash": "ebb4f6364df4",
+   "seconds": 20.57
+  },
+  "face-chars/4-nian": {
+   "hash": "ea57a3bf7bc8",
+   "seconds": 3.67
+  },
+  "face-chars/5-dad": {
+   "hash": "283e36d22df5",
+   "seconds": 20.71
+  },
+  "face-chars/5-nian": {
+   "hash": "14ad511f2bf6",
+   "seconds": 5.62
+  },
+  "face-chars/6-dad": {
+   "hash": "0d7c09887866",
+   "seconds": 11.98
+  },
+  "face-chars/6-nian": {
+   "hash": "963820d67009",
+   "seconds": 9.53
+  },
+  "four-lines/0-dad": {
+   "hash": "b0856b557717",
+   "seconds": 15.58
+  },
+  "four-lines/0-nian": {
+   "hash": "81ca99669563",
+   "seconds": 5.54
+  },
+  "four-lines/1-dad": {
+   "hash": "6b2f4d05cd5b",
+   "seconds": 18.89
+  },
+  "four-lines/1-nian": {
+   "hash": "444dbb0b85b2",
+   "seconds": 5.06
+  },
+  "four-lines/2-dad": {
+   "hash": "fca500ffca8d",
+   "seconds": 20.21
+  },
+  "four-lines/2-nian": {
+   "hash": "9982be49c106",
+   "seconds": 5.28
+  },
+  "four-lines/3-dad": {
+   "hash": "ea1e4925ca11",
+   "seconds": 19.97
+  },
+  "four-lines/3-nian": {
+   "hash": "630f24ea8f29",
+   "seconds": 3.46
+  },
+  "four-lines/4-dad": {
+   "hash": "4e75698735e9",
+   "seconds": 18.29
+  },
+  "four-lines/4-nian": {
+   "hash": "af0d4f88f83e",
+   "seconds": 3.91
+  },
+  "four-lines/5-dad": {
+   "hash": "48b481de17d3",
+   "seconds": 16.8
+  },
+  "four-lines/5-nian": {
+   "hash": "922f6dac62bb",
+   "seconds": 12.89
+  },
+  "hand-eye/0-dad": {
+   "hash": "93f36e05445a",
+   "seconds": 18.46
+  },
+  "hand-eye/0-nian": {
+   "hash": "0828639ad88d",
+   "seconds": 6.22
+  },
+  "hand-eye/1-dad": {
+   "hash": "3598b9a591e6",
+   "seconds": 21.96
+  },
+  "hand-eye/1-nian": {
+   "hash": "843880ed60ae",
+   "seconds": 3.24
+  },
+  "hand-eye/2-dad": {
+   "hash": "b3262613a4c9",
+   "seconds": 13.75
+  },
+  "hand-eye/2-nian": {
+   "hash": "b3518b01dced",
+   "seconds": 5.11
+  },
+  "hand-eye/3-dad": {
+   "hash": "677c2c45e23f",
+   "seconds": 16.87
+  },
+  "hand-eye/3-nian": {
+   "hash": "42176c9ecec7",
+   "seconds": 4.06
+  },
+  "hand-eye/4-dad": {
+   "hash": "1de4c655d08a",
+   "seconds": 17.26
+  },
+  "hand-eye/4-nian": {
+   "hash": "f1c3ac840ea6",
+   "seconds": 7.61
+  },
+  "hand-eye/5-dad": {
+   "hash": "c95e189b5438",
+   "seconds": 13.01
+  },
+  "hand-eye/5-nian": {
+   "hash": "8db72226e060",
+   "seconds": 11.28
+  },
+  "horse-stands/0-dad": {
+   "hash": "4617b8dfa96e",
+   "seconds": 20.38
+  },
+  "horse-stands/0-nian": {
+   "hash": "1fef3ae27351",
+   "seconds": 5.93
+  },
+  "horse-stands/1-dad": {
+   "hash": "82a4fa961c2a",
+   "seconds": 23.06
+  },
+  "horse-stands/1-nian": {
+   "hash": "e7f761c25214",
+   "seconds": 3.05
+  },
+  "horse-stands/2-dad": {
+   "hash": "c67a1a73c94c",
+   "seconds": 19.37
+  },
+  "horse-stands/2-nian": {
+   "hash": "ca7e632405a8",
+   "seconds": 4.56
+  },
+  "horse-stands/3-dad": {
+   "hash": "a64782621f2b",
+   "seconds": 19.3
+  },
+  "horse-stands/3-nian": {
+   "hash": "b0fcf3e3acd2",
+   "seconds": 3.96
+  },
+  "horse-stands/4-dad": {
+   "hash": "8d3a73cc51cd",
+   "seconds": 20.76
+  },
+  "horse-stands/4-nian": {
+   "hash": "f78ff72f70e2",
+   "seconds": 3.72
+  },
+  "horse-stands/5-dad": {
+   "hash": "bf6507e313e8",
+   "seconds": 18.65
+  },
+  "horse-stands/5-nian": {
+   "hash": "044b5e796bbf",
+   "seconds": 6.77
+  },
+  "horse-stands/6-dad": {
+   "hash": "e6cd97b3cc62",
+   "seconds": 13.85
+  },
+  "horse-stands/6-nian": {
+   "hash": "f29fd01b86c4",
+   "seconds": 9.89
+  },
+  "how-many/0-dad": {
+   "hash": "7f42191bc508",
+   "seconds": 17.45
+  },
+  "how-many/0-nian": {
+   "hash": "99d70c1a5931",
+   "seconds": 5.4
+  },
+  "how-many/1-dad": {
+   "hash": "84b2576ae1b4",
+   "seconds": 17.11
+  },
+  "how-many/1-nian": {
+   "hash": "772dbed8d06c",
+   "seconds": 3.5
+  },
+  "how-many/2-dad": {
+   "hash": "6d7d8871a824",
+   "seconds": 15.67
+  },
+  "how-many/2-nian": {
+   "hash": "fa967f52aa84",
+   "seconds": 3.29
+  },
+  "how-many/3-dad": {
+   "hash": "3b4f38fbd154",
+   "seconds": 21.12
+  },
+  "how-many/3-nian": {
+   "hash": "b690dbc93615",
+   "seconds": 3.94
+  },
+  "how-many/4-dad": {
+   "hash": "e30554f67a82",
+   "seconds": 18.29
+  },
+  "how-many/4-nian": {
+   "hash": "2002e725458a",
+   "seconds": 4.25
+  },
+  "how-many/5-dad": {
+   "hash": "445c971277d0",
+   "seconds": 17.64
+  },
+  "how-many/5-nian": {
+   "hash": "f72d9c6fe052",
+   "seconds": 4.01
+  },
+  "how-many/6-dad": {
+   "hash": "71dcbe964b50",
+   "seconds": 11.81
+  },
+  "how-many/6-nian": {
+   "hash": "0f693e0a4c1b",
+   "seconds": 11.71
+  },
+  "inch-pulse/0-dad": {
+   "hash": "90894e94d538",
+   "seconds": 15.53
+  },
+  "inch-pulse/0-nian": {
+   "hash": "7e35d6e3f8de",
+   "seconds": 4.01
+  },
+  "inch-pulse/1-dad": {
+   "hash": "1cf7f918402d",
+   "seconds": 18.12
+  },
+  "inch-pulse/1-nian": {
+   "hash": "e161734cc15b",
+   "seconds": 3.58
+  },
+  "inch-pulse/2-dad": {
+   "hash": "5eaba5833b3e",
+   "seconds": 22.34
+  },
+  "inch-pulse/2-nian": {
+   "hash": "c1047117b76d",
+   "seconds": 5.57
+  },
+  "inch-pulse/3-dad": {
+   "hash": "ea72beff6df2",
+   "seconds": 18.89
+  },
+  "inch-pulse/3-nian": {
+   "hash": "f075718f8d05",
+   "seconds": 5.02
+  },
+  "inch-pulse/4-dad": {
+   "hash": "1c63f4476093",
+   "seconds": 18.26
+  },
+  "inch-pulse/4-nian": {
+   "hash": "c235ca14e0b3",
+   "seconds": 6.34
+  },
+  "inch-pulse/5-dad": {
+   "hash": "b4c1af435ce7",
+   "seconds": 19.97
+  },
+  "inch-pulse/5-nian": {
+   "hash": "0a575f8555c0",
+   "seconds": 4.61
+  },
+  "inch-pulse/6-dad": {
+   "hash": "2b92e7df8aa7",
+   "seconds": 17.45
+  },
+  "inch-pulse/6-nian": {
+   "hash": "8520457b7205",
+   "seconds": 12.26
+  },
+  "kanji-abroad/0-dad": {
+   "hash": "2b4c267c10b5",
+   "seconds": 20.66
+  },
+  "kanji-abroad/0-nian": {
+   "hash": "1b9364c2a376",
+   "seconds": 6.05
+  },
+  "kanji-abroad/1-dad": {
+   "hash": "4226fc5bf039",
+   "seconds": 20.26
+  },
+  "kanji-abroad/1-nian": {
+   "hash": "b006dfdc6928",
+   "seconds": 6.46
+  },
+  "kanji-abroad/2-dad": {
+   "hash": "55b344ccc86a",
+   "seconds": 20.23
+  },
+  "kanji-abroad/2-nian": {
+   "hash": "0f823dfbae8b",
+   "seconds": 5.45
+  },
+  "kanji-abroad/3-dad": {
+   "hash": "366aacd1b09a",
+   "seconds": 22.61
+  },
+  "kanji-abroad/3-nian": {
+   "hash": "23881f54283b",
+   "seconds": 3.82
+  },
+  "kanji-abroad/4-dad": {
+   "hash": "16661cc41520",
+   "seconds": 20.74
+  },
+  "kanji-abroad/4-nian": {
+   "hash": "5d67ea1acd24",
+   "seconds": 5.3
+  },
+  "kanji-abroad/5-dad": {
+   "hash": "909f21b3700b",
+   "seconds": 17.4
+  },
+  "kanji-abroad/5-nian": {
+   "hash": "97ecf6d53a6c",
+   "seconds": 5.3
+  },
+  "kanji-abroad/6-dad": {
+   "hash": "d195dc215972",
+   "seconds": 11.02
+  },
+  "kanji-abroad/6-nian": {
+   "hash": "2b1bc1faf3b0",
+   "seconds": 9.74
+  },
+  "lanting-zhi/0-dad": {
+   "hash": "2746a22418e5",
+   "seconds": 18.74
+  },
+  "lanting-zhi/0-nian": {
+   "hash": "a7745e02ffd2",
+   "seconds": 5.54
+  },
+  "lanting-zhi/1-dad": {
+   "hash": "23f438c8ef85",
+   "seconds": 20.59
+  },
+  "lanting-zhi/1-nian": {
+   "hash": "3c981528e485",
+   "seconds": 4.18
+  },
+  "lanting-zhi/2-dad": {
+   "hash": "e4be7b6e0cf7",
+   "seconds": 23.71
+  },
+  "lanting-zhi/2-nian": {
+   "hash": "145b47d50db7",
+   "seconds": 4.94
+  },
+  "lanting-zhi/3-dad": {
+   "hash": "0b4da2ce589f",
+   "seconds": 21.26
+  },
+  "lanting-zhi/3-nian": {
+   "hash": "fd465d9e2743",
+   "seconds": 5.71
+  },
+  "lanting-zhi/4-dad": {
+   "hash": "cfb8d97dd486",
+   "seconds": 21.55
+  },
+  "lanting-zhi/4-nian": {
+   "hash": "37108a291095",
+   "seconds": 4.97
+  },
+  "lanting-zhi/5-dad": {
+   "hash": "b6b92037f609",
+   "seconds": 11.78
+  },
+  "lanting-zhi/5-nian": {
+   "hash": "557bc5d91c19",
+   "seconds": 10.22
+  },
+  "ma-family/0-dad": {
+   "hash": "63270031362b",
+   "seconds": 16.42
+  },
+  "ma-family/0-nian": {
+   "hash": "b3b7cb85daab",
+   "seconds": 10.08
+  },
+  "ma-family/1-dad": {
+   "hash": "2dbf29d1ea6a",
+   "seconds": 18.91
+  },
+  "ma-family/1-nian": {
+   "hash": "d06703f40246",
+   "seconds": 4.22
+  },
+  "ma-family/2-dad": {
+   "hash": "843dc9ceed53",
+   "seconds": 24.62
+  },
+  "ma-family/2-nian": {
+   "hash": "31ab768b7026",
+   "seconds": 4.44
+  },
+  "ma-family/3-dad": {
+   "hash": "b6a1f6ffdf60",
+   "seconds": 19.37
+  },
+  "ma-family/3-nian": {
+   "hash": "5dc13636a41a",
+   "seconds": 6.89
+  },
+  "ma-family/4-dad": {
+   "hash": "1e84fa195ff9",
+   "seconds": 20.54
+  },
+  "ma-family/4-nian": {
+   "hash": "6919769639a6",
+   "seconds": 4.61
+  },
+  "ma-family/5-dad": {
+   "hash": "dfa2529e4166",
+   "seconds": 15.24
+  },
+  "ma-family/5-nian": {
+   "hash": "dea84218ea88",
+   "seconds": 6.24
+  },
+  "ma-family/6-dad": {
+   "hash": "ef519048b6e0",
+   "seconds": 14.35
+  },
+  "ma-family/6-nian": {
+   "hash": "b301ba16aa52",
+   "seconds": 10.94
+  },
+  "moon-radical/0-dad": {
+   "hash": "5bd515e22810",
+   "seconds": 18.34
+  },
+  "moon-radical/0-nian": {
+   "hash": "d78ddc38b907",
+   "seconds": 8.78
+  },
+  "moon-radical/1-dad": {
+   "hash": "df5e9f12f92d",
+   "seconds": 22.32
+  },
+  "moon-radical/1-nian": {
+   "hash": "7d250961aead",
+   "seconds": 5.54
+  },
+  "moon-radical/2-dad": {
+   "hash": "90db659a9c50",
+   "seconds": 16.75
+  },
+  "moon-radical/2-nian": {
+   "hash": "9b1037e40ccf",
+   "seconds": 4.22
+  },
+  "moon-radical/3-dad": {
+   "hash": "f493bd767bbe",
+   "seconds": 19.44
+  },
+  "moon-radical/3-nian": {
+   "hash": "393ee1d90a89",
+   "seconds": 3.58
+  },
+  "moon-radical/4-dad": {
+   "hash": "26d28c07563c",
+   "seconds": 18.62
+  },
+  "moon-radical/4-nian": {
+   "hash": "8a64557d7661",
+   "seconds": 5.21
+  },
+  "moon-radical/5-dad": {
+   "hash": "6972515f2f84",
+   "seconds": 14.09
+  },
+  "moon-radical/5-nian": {
+   "hash": "8a5d031d7989",
+   "seconds": 11.06
+  },
+  "most-chars/0-dad": {
+   "hash": "ec3355d47379",
+   "seconds": 17.76
+  },
+  "most-chars/0-nian": {
+   "hash": "a2a2d8aca651",
+   "seconds": 6.6
+  },
+  "most-chars/1-dad": {
+   "hash": "32c245fdc1ec",
+   "seconds": 17.54
+  },
+  "most-chars/1-nian": {
+   "hash": "86b6be0e0ba5",
+   "seconds": 5.16
+  },
+  "most-chars/2-dad": {
+   "hash": "ed6bd8f8d966",
+   "seconds": 23.66
+  },
+  "most-chars/2-nian": {
+   "hash": "e22ffd42cff1",
+   "seconds": 4.01
+  },
+  "most-chars/3-dad": {
+   "hash": "25c99fcacd80",
+   "seconds": 20.35
+  },
+  "most-chars/3-nian": {
+   "hash": "d82533b0bb91",
+   "seconds": 4.58
+  },
+  "most-chars/4-dad": {
+   "hash": "e31569787210",
+   "seconds": 23.23
+  },
+  "most-chars/4-nian": {
+   "hash": "663b2d5f61ef",
+   "seconds": 6
+  },
+  "most-chars/5-dad": {
+   "hash": "6b1fb282af99",
+   "seconds": 12.58
+  },
+  "most-chars/5-nian": {
+   "hash": "e3a39a6c2529",
+   "seconds": 11.04
+  },
+  "mountain-water/0-dad": {
+   "hash": "58f45cbe0da3",
+   "seconds": 16.66
+  },
+  "mountain-water/0-nian": {
+   "hash": "0e8f7b84d547",
+   "seconds": 5.54
+  },
+  "mountain-water/1-dad": {
+   "hash": "29aa7cc82450",
+   "seconds": 16.9
+  },
+  "mountain-water/1-nian": {
+   "hash": "07d7c099938e",
+   "seconds": 7.08
+  },
+  "mountain-water/2-dad": {
+   "hash": "e6f1501a348f",
+   "seconds": 16.03
+  },
+  "mountain-water/2-nian": {
+   "hash": "5b0677901ae2",
+   "seconds": 5.9
+  },
+  "mountain-water/3-dad": {
+   "hash": "ae436a467f49",
+   "seconds": 18.74
+  },
+  "mountain-water/3-nian": {
+   "hash": "307e454a8440",
+   "seconds": 4.99
+  },
+  "mountain-water/4-dad": {
+   "hash": "50f78d9dbe35",
+   "seconds": 18.38
+  },
+  "mountain-water/4-nian": {
+   "hash": "271aa1f3118a",
+   "seconds": 4.85
+  },
+  "mountain-water/5-dad": {
+   "hash": "2335aa612e01",
+   "seconds": 22.85
+  },
+  "mountain-water/5-nian": {
+   "hash": "30a6569b1c69",
+   "seconds": 7.06
+  },
+  "mountain-water/6-dad": {
+   "hash": "46d7495996cb",
+   "seconds": 12.29
+  },
+  "mountain-water/6-nian": {
+   "hash": "697a741540ac",
+   "seconds": 13.1
+  },
+  "movable-type/0-dad": {
+   "hash": "6f6601e4139b",
+   "seconds": 16.49
+  },
+  "movable-type/0-nian": {
+   "hash": "af7aad9f5e1b",
+   "seconds": 5.81
+  },
+  "movable-type/1-dad": {
+   "hash": "ff7393892daa",
+   "seconds": 15.82
+  },
+  "movable-type/1-nian": {
+   "hash": "c8d5f38d1f3c",
+   "seconds": 6.17
+  },
+  "movable-type/2-dad": {
+   "hash": "f624d5eb0d52",
+   "seconds": 22.54
+  },
+  "movable-type/2-nian": {
+   "hash": "27fe671eacdd",
+   "seconds": 4.15
+  },
+  "movable-type/3-dad": {
+   "hash": "879104c5d026",
+   "seconds": 18.53
+  },
+  "movable-type/3-nian": {
+   "hash": "607730e52e30",
+   "seconds": 5.86
+  },
+  "movable-type/4-dad": {
+   "hash": "29ada9fed5b0",
+   "seconds": 22.7
+  },
+  "movable-type/4-nian": {
+   "hash": "47c0f9119311",
+   "seconds": 4.03
+  },
+  "movable-type/5-dad": {
+   "hash": "4b1b21534926",
+   "seconds": 17.59
+  },
+  "movable-type/5-nian": {
+   "hash": "b9df473d76f2",
+   "seconds": 12.22
+  },
+  "nephew-draft/0-dad": {
+   "hash": "52db61e60abc",
+   "seconds": 22.03
+  },
+  "nephew-draft/0-nian": {
+   "hash": "564ac14689b1",
+   "seconds": 5.42
+  },
+  "nephew-draft/1-dad": {
+   "hash": "aa0075ab5ce0",
+   "seconds": 21.55
+  },
+  "nephew-draft/1-nian": {
+   "hash": "23221b5e1f3f",
+   "seconds": 5.57
+  },
+  "nephew-draft/2-dad": {
+   "hash": "15c5e9eebc92",
+   "seconds": 17.86
+  },
+  "nephew-draft/2-nian": {
+   "hash": "400c919a0123",
+   "seconds": 4.73
+  },
+  "nephew-draft/3-dad": {
+   "hash": "81b08392f0d9",
+   "seconds": 18.94
+  },
+  "nephew-draft/3-nian": {
+   "hash": "2ca39893bf35",
+   "seconds": 5.4
+  },
+  "nephew-draft/4-dad": {
+   "hash": "35647809f1b6",
+   "seconds": 16.63
+  },
+  "nephew-draft/4-nian": {
+   "hash": "8396b40d26cf",
+   "seconds": 4.58
+  },
+  "nephew-draft/5-dad": {
+   "hash": "0f9631549d0b",
+   "seconds": 14.81
+  },
+  "nephew-draft/5-nian": {
+   "hash": "a57bdef4393a",
+   "seconds": 4.2
+  },
+  "nephew-draft/6-dad": {
+   "hash": "5b1a94d5b85f",
+   "seconds": 8.71
+  },
+  "nephew-draft/6-nian": {
+   "hash": "344a15f55bf6",
+   "seconds": 12.55
+  },
+  "nian-harvest/0-dad": {
+   "hash": "43d56f0b868a",
+   "seconds": 14.3
+  },
+  "nian-harvest/0-nian": {
+   "hash": "7e6bd0a45ab2",
+   "seconds": 5.28
+  },
+  "nian-harvest/1-dad": {
+   "hash": "0d0fac234911",
+   "seconds": 18.19
+  },
+  "nian-harvest/1-nian": {
+   "hash": "0d1ecdea2267",
+   "seconds": 4.37
+  },
+  "nian-harvest/2-dad": {
+   "hash": "4cf29c805dbf",
+   "seconds": 20.3
+  },
+  "nian-harvest/2-nian": {
+   "hash": "0e8b6d31520f",
+   "seconds": 5.81
+  },
+  "nian-harvest/3-dad": {
+   "hash": "74729c0ca62b",
+   "seconds": 22.37
+  },
+  "nian-harvest/3-nian": {
+   "hash": "075abd893191",
+   "seconds": 5.4
+  },
+  "nian-harvest/4-dad": {
+   "hash": "077ed70ad3e4",
+   "seconds": 18.24
+  },
+  "nian-harvest/4-nian": {
+   "hash": "ca0380343e75",
+   "seconds": 7.08
+  },
+  "nian-harvest/5-dad": {
+   "hash": "fcc4fdc1e63c",
+   "seconds": 15.19
+  },
+  "nian-harvest/5-nian": {
+   "hash": "160aa4ae4ac5",
+   "seconds": 6.05
+  },
+  "nian-harvest/6-dad": {
+   "hash": "94fcba15834a",
+   "seconds": 12.24
+  },
+  "nian-harvest/6-nian": {
+   "hash": "eee4bb105ed1",
+   "seconds": 16.9
+  },
+  "oldest-writing/0-dad": {
+   "hash": "d2d301b34b38",
+   "seconds": 18.74
+  },
+  "oldest-writing/0-nian": {
+   "hash": "404815f8d4c5",
+   "seconds": 6
+  },
+  "oldest-writing/1-dad": {
+   "hash": "d3af59a59ec0",
+   "seconds": 22.44
+  },
+  "oldest-writing/1-nian": {
+   "hash": "2e8dcd468bac",
+   "seconds": 3.7
+  },
+  "oldest-writing/2-dad": {
+   "hash": "65b30704a98c",
+   "seconds": 20.45
+  },
+  "oldest-writing/2-nian": {
+   "hash": "cbd830c6d7f6",
+   "seconds": 5.09
+  },
+  "oldest-writing/3-dad": {
+   "hash": "74c743575353",
+   "seconds": 21.36
+  },
+  "oldest-writing/3-nian": {
+   "hash": "44e630daf8de",
+   "seconds": 4.3
+  },
+  "oldest-writing/4-dad": {
+   "hash": "3b04287b5fc5",
+   "seconds": 25.7
+  },
+  "oldest-writing/4-nian": {
+   "hash": "15425ae85516",
+   "seconds": 4.99
+  },
+  "oldest-writing/5-dad": {
+   "hash": "16b90b498a59",
+   "seconds": 20.59
+  },
+  "oldest-writing/5-nian": {
+   "hash": "3f68e4058eea",
+   "seconds": 5.95
+  },
+  "oldest-writing/6-dad": {
+   "hash": "c9fada4e02a9",
+   "seconds": 13.37
+  },
+  "oldest-writing/6-nian": {
+   "hash": "9f62d61521bf",
+   "seconds": 11.93
+  },
+  "oracle-bones/0-dad": {
+   "hash": "ea67f454996f",
+   "seconds": 16.37
+  },
+  "oracle-bones/0-nian": {
+   "hash": "e10aad4cb0a2",
+   "seconds": 5.64
+  },
+  "oracle-bones/1-dad": {
+   "hash": "aee4f5e29b8c",
+   "seconds": 16.63
+  },
+  "oracle-bones/1-nian": {
+   "hash": "53d938410e77",
+   "seconds": 4.22
+  },
+  "oracle-bones/2-dad": {
+   "hash": "b0307ca350b1",
+   "seconds": 14.42
+  },
+  "oracle-bones/2-nian": {
+   "hash": "60c025e4eb3d",
+   "seconds": 2.38
+  },
+  "oracle-bones/3-dad": {
+   "hash": "bc77053a9944",
+   "seconds": 17.64
+  },
+  "oracle-bones/3-nian": {
+   "hash": "82b93653a321",
+   "seconds": 3.96
+  },
+  "oracle-bones/4-dad": {
+   "hash": "551624ef4f7a",
+   "seconds": 18.34
+  },
+  "oracle-bones/4-nian": {
+   "hash": "7d7e5b47990e",
+   "seconds": 4.68
+  },
+  "oracle-bones/5-dad": {
+   "hash": "6fba5a3b0ceb",
+   "seconds": 19.03
+  },
+  "oracle-bones/5-nian": {
+   "hash": "7cdcf719caf2",
+   "seconds": 4.13
+  },
+  "oracle-bones/6-dad": {
+   "hash": "182a534c72af",
+   "seconds": 11.62
+  },
+  "oracle-bones/6-nian": {
+   "hash": "234f0962a847",
+   "seconds": 9.48
+  },
+  "oracle-say/0-dad": {
+   "hash": "ec24addd5d0d",
+   "seconds": 20.02
+  },
+  "oracle-say/0-nian": {
+   "hash": "7186b900c379",
+   "seconds": 6.7
+  },
+  "oracle-say/1-dad": {
+   "hash": "17fe409f2170",
+   "seconds": 22.32
+  },
+  "oracle-say/1-nian": {
+   "hash": "c0315f6080bb",
+   "seconds": 4.32
+  },
+  "oracle-say/2-dad": {
+   "hash": "20bee86d97fc",
+   "seconds": 21.55
+  },
+  "oracle-say/2-nian": {
+   "hash": "1d526f6a9231",
+   "seconds": 5.26
+  },
+  "oracle-say/3-dad": {
+   "hash": "3cc57d68a842",
+   "seconds": 18.82
+  },
+  "oracle-say/3-nian": {
+   "hash": "1a41d0e97c8c",
+   "seconds": 4.06
+  },
+  "oracle-say/4-dad": {
+   "hash": "ec04eef9a4df",
+   "seconds": 20.11
+  },
+  "oracle-say/4-nian": {
+   "hash": "c91ca6b9835d",
+   "seconds": 3.98
+  },
+  "oracle-say/5-dad": {
+   "hash": "85e41aa48110",
+   "seconds": 18.82
+  },
+  "oracle-say/5-nian": {
+   "hash": "ec4576e36e57",
+   "seconds": 2.93
+  },
+  "oracle-say/6-dad": {
+   "hash": "a8c739d0e306",
+   "seconds": 13.1
+  },
+  "oracle-say/6-nian": {
+   "hash": "047586ce1a17",
+   "seconds": 10.27
+  },
+  "paper-respect/0-dad": {
+   "hash": "d022033cc557",
+   "seconds": 17.26
+  },
+  "paper-respect/0-nian": {
+   "hash": "53fb9e451948",
+   "seconds": 5.93
+  },
+  "paper-respect/1-dad": {
+   "hash": "8542c8d1292b",
+   "seconds": 22.34
+  },
+  "paper-respect/1-nian": {
+   "hash": "0ab64d43b14a",
+   "seconds": 6.05
+  },
+  "paper-respect/2-dad": {
+   "hash": "10ad0e30ec15",
+   "seconds": 17.23
+  },
+  "paper-respect/2-nian": {
+   "hash": "3fa6604b9cab",
+   "seconds": 4.8
+  },
+  "paper-respect/3-dad": {
+   "hash": "3740d96dc4a4",
+   "seconds": 14.21
+  },
+  "paper-respect/3-nian": {
+   "hash": "ca9a68703e11",
+   "seconds": 4.03
+  },
+  "paper-respect/4-dad": {
+   "hash": "3707415b055a",
+   "seconds": 16.37
+  },
+  "paper-respect/4-nian": {
+   "hash": "ea020cc34451",
+   "seconds": 5.52
+  },
+  "paper-respect/5-dad": {
+   "hash": "fd1ad2d8612f",
+   "seconds": 17.59
+  },
+  "paper-respect/5-nian": {
+   "hash": "208ab328883c",
+   "seconds": 5.4
+  },
+  "paper-respect/6-dad": {
+   "hash": "0ad3be715d8a",
+   "seconds": 12.24
+  },
+  "paper-respect/6-nian": {
+   "hash": "27110f0729b7",
+   "seconds": 13.01
+  },
+  "pig-home/0-dad": {
+   "hash": "8df84a3de67e",
+   "seconds": 17.86
+  },
+  "pig-home/0-nian": {
+   "hash": "d62322f8b2e5",
+   "seconds": 4.44
+  },
+  "pig-home/1-dad": {
+   "hash": "c5436fdf908e",
+   "seconds": 20.71
+  },
+  "pig-home/1-nian": {
+   "hash": "0cd049a4fed0",
+   "seconds": 5.42
+  },
+  "pig-home/2-dad": {
+   "hash": "2811cb47f7d3",
+   "seconds": 17.16
+  },
+  "pig-home/2-nian": {
+   "hash": "879aeac5b3ea",
+   "seconds": 4.82
+  },
+  "pig-home/3-dad": {
+   "hash": "5172ff6a187f",
+   "seconds": 22.22
+  },
+  "pig-home/3-nian": {
+   "hash": "462c97f36a19",
+   "seconds": 4.2
+  },
+  "pig-home/4-dad": {
+   "hash": "a087280bd2d2",
+   "seconds": 17.47
+  },
+  "pig-home/4-nian": {
+   "hash": "a804b0e88e5e",
+   "seconds": 5.62
+  },
+  "pig-home/5-dad": {
+   "hash": "23bedd610ecb",
+   "seconds": 12.38
+  },
+  "pig-home/5-nian": {
+   "hash": "30d269941ebe",
+   "seconds": 12.22
+  },
+  "radical-dictionary/0-dad": {
+   "hash": "507d3b42e08b",
+   "seconds": 17.88
+  },
+  "radical-dictionary/0-nian": {
+   "hash": "c5803f2bbe61",
+   "seconds": 5.83
+  },
+  "radical-dictionary/1-dad": {
+   "hash": "1816933525f2",
+   "seconds": 16.97
+  },
+  "radical-dictionary/1-nian": {
+   "hash": "5a96388969a9",
+   "seconds": 5.21
+  },
+  "radical-dictionary/2-dad": {
+   "hash": "d09c3c9240a8",
+   "seconds": 16.51
+  },
+  "radical-dictionary/2-nian": {
+   "hash": "8525dc8abf6b",
+   "seconds": 3.98
+  },
+  "radical-dictionary/3-dad": {
+   "hash": "2765bf29617e",
+   "seconds": 20.23
+  },
+  "radical-dictionary/3-nian": {
+   "hash": "3b0b9773f866",
+   "seconds": 3.58
+  },
+  "radical-dictionary/4-dad": {
+   "hash": "88500fef64fe",
+   "seconds": 17.66
+  },
+  "radical-dictionary/4-nian": {
+   "hash": "0f972cdeb86e",
+   "seconds": 3.74
+  },
+  "radical-dictionary/5-dad": {
+   "hash": "f7f71c5e9ce8",
+   "seconds": 8.93
+  },
+  "radical-dictionary/5-nian": {
+   "hash": "d20013807864",
+   "seconds": 8.33
+  },
+  "rest-tree/0-dad": {
+   "hash": "2ec11b78bee0",
+   "seconds": 16.03
+  },
+  "rest-tree/0-nian": {
+   "hash": "6b7b9c2d9651",
+   "seconds": 5.06
+  },
+  "rest-tree/1-dad": {
+   "hash": "480721f9fe2c",
+   "seconds": 17.02
+  },
+  "rest-tree/1-nian": {
+   "hash": "32442debc58b",
+   "seconds": 5.54
+  },
+  "rest-tree/2-dad": {
+   "hash": "81baa7418f3d",
+   "seconds": 14.88
+  },
+  "rest-tree/2-nian": {
+   "hash": "8df3736c5da0",
+   "seconds": 4.7
+  },
+  "rest-tree/3-dad": {
+   "hash": "e1acc26454c1",
+   "seconds": 20.88
+  },
+  "rest-tree/3-nian": {
+   "hash": "b634fe2cf853",
+   "seconds": 4.8
+  },
+  "rest-tree/4-dad": {
+   "hash": "fcf5dc8c7ebd",
+   "seconds": 23.83
+  },
+  "rest-tree/4-nian": {
+   "hash": "9f97cb917c7e",
+   "seconds": 5.38
+  },
+  "rest-tree/5-dad": {
+   "hash": "b83d9a0c9f61",
+   "seconds": 12.82
+  },
+  "rest-tree/5-nian": {
+   "hash": "ae0b6c473713",
+   "seconds": 9.98
+  },
+  "riddles/0-dad": {
+   "hash": "4bdc664380a0",
+   "seconds": 14.21
+  },
+  "riddles/0-nian": {
+   "hash": "c2c6ce88c99c",
+   "seconds": 5.66
+  },
+  "riddles/1-dad": {
+   "hash": "0d8a3e7ca8ea",
+   "seconds": 17.98
+  },
+  "riddles/1-nian": {
+   "hash": "a4fdb88f04cf",
+   "seconds": 4.78
+  },
+  "riddles/2-dad": {
+   "hash": "f6837eaeef24",
+   "seconds": 16.1
+  },
+  "riddles/2-nian": {
+   "hash": "3f412496dcae",
+   "seconds": 4.92
+  },
+  "riddles/3-dad": {
+   "hash": "9a2f63ed5227",
+   "seconds": 19.51
+  },
+  "riddles/3-nian": {
+   "hash": "03a48d9e0f87",
+   "seconds": 4.68
+  },
+  "riddles/4-dad": {
+   "hash": "26d831eb24f9",
+   "seconds": 20.88
+  },
+  "riddles/4-nian": {
+   "hash": "95a027bcfbd8",
+   "seconds": 6.46
+  },
+  "riddles/5-dad": {
+   "hash": "5b2d8447dd56",
+   "seconds": 15.43
+  },
+  "riddles/5-nian": {
+   "hash": "db5559deb855",
+   "seconds": 4.66
+  },
+  "riddles/6-dad": {
+   "hash": "91b9a54c4655",
+   "seconds": 10.46
+  },
+  "riddles/6-nian": {
+   "hash": "1273904fdd10",
+   "seconds": 12.94
+  },
+  "river-sound/0-dad": {
+   "hash": "2b88db1f193e",
+   "seconds": 14.28
+  },
+  "river-sound/0-nian": {
+   "hash": "1476c402fad7",
+   "seconds": 5.78
+  },
+  "river-sound/1-dad": {
+   "hash": "1ece4f1f464f",
+   "seconds": 21.65
+  },
+  "river-sound/1-nian": {
+   "hash": "4480bd943ea6",
+   "seconds": 5.38
+  },
+  "river-sound/2-dad": {
+   "hash": "9ce57aa24bbc",
+   "seconds": 18.96
+  },
+  "river-sound/2-nian": {
+   "hash": "4ee203c6e4e5",
+   "seconds": 5.18
+  },
+  "river-sound/3-dad": {
+   "hash": "f9a34f2e6385",
+   "seconds": 19.18
+  },
+  "river-sound/3-nian": {
+   "hash": "5dcd6baaa111",
+   "seconds": 6.31
+  },
+  "river-sound/4-dad": {
+   "hash": "08ba5410f367",
+   "seconds": 16.94
+  },
+  "river-sound/4-nian": {
+   "hash": "dc27340619a3",
+   "seconds": 4.78
+  },
+  "river-sound/5-dad": {
+   "hash": "7eb9efbecc02",
+   "seconds": 12.26
+  },
+  "river-sound/5-nian": {
+   "hash": "8f9e9375e79f",
+   "seconds": 12.46
+  },
+  "same-writing/0-dad": {
+   "hash": "61c40511ec5b",
+   "seconds": 16.37
+  },
+  "same-writing/0-nian": {
+   "hash": "87fc966fc441",
+   "seconds": 3.17
+  },
+  "same-writing/1-dad": {
+   "hash": "8b68fb95d907",
+   "seconds": 18.74
+  },
+  "same-writing/1-nian": {
+   "hash": "4bb3ec99d274",
+   "seconds": 3.46
+  },
+  "same-writing/2-dad": {
+   "hash": "4f02b194bd65",
+   "seconds": 21.5
+  },
+  "same-writing/2-nian": {
+   "hash": "14dfd744e48e",
+   "seconds": 3.5
+  },
+  "same-writing/3-dad": {
+   "hash": "51d0c7394ecb",
+   "seconds": 18.77
+  },
+  "same-writing/3-nian": {
+   "hash": "70436f8293ae",
+   "seconds": 4.27
+  },
+  "same-writing/4-dad": {
+   "hash": "9fd14e12416f",
+   "seconds": 21.43
+  },
+  "same-writing/4-nian": {
+   "hash": "f46f1e75df65",
+   "seconds": 3.94
+  },
+  "same-writing/5-dad": {
+   "hash": "55a75ac5cd8d",
+   "seconds": 21.6
+  },
+  "same-writing/5-nian": {
+   "hash": "f4a87ace9213",
+   "seconds": 4.44
+  },
+  "same-writing/6-dad": {
+   "hash": "2ac4fc1e7b12",
+   "seconds": 11.59
+  },
+  "same-writing/6-nian": {
+   "hash": "37be284bac03",
+   "seconds": 12
+  },
+  "script-journey/0-dad": {
+   "hash": "2dacc7211327",
+   "seconds": 19.44
+  },
+  "script-journey/0-nian": {
+   "hash": "acedfff49a51",
+   "seconds": 6.02
+  },
+  "script-journey/1-dad": {
+   "hash": "828da01654b4",
+   "seconds": 22.63
+  },
+  "script-journey/1-nian": {
+   "hash": "e55957f837fe",
+   "seconds": 4.01
+  },
+  "script-journey/2-dad": {
+   "hash": "cf121477331f",
+   "seconds": 19.03
+  },
+  "script-journey/2-nian": {
+   "hash": "4ccf189c91aa",
+   "seconds": 2.35
+  },
+  "script-journey/3-dad": {
+   "hash": "c9d56a6c1e8c",
+   "seconds": 18.62
+  },
+  "script-journey/3-nian": {
+   "hash": "3337f985e5f7",
+   "seconds": 3.79
+  },
+  "script-journey/4-dad": {
+   "hash": "795eb8533c3e",
+   "seconds": 20.95
+  },
+  "script-journey/4-nian": {
+   "hash": "ea4f24ae4f7e",
+   "seconds": 3
+  },
+  "script-journey/5-dad": {
+   "hash": "38d3e2b37981",
+   "seconds": 17.64
+  },
+  "script-journey/5-nian": {
+   "hash": "8f5777218632",
+   "seconds": 4.37
+  },
+  "script-journey/6-dad": {
+   "hash": "7e230c5fada8",
+   "seconds": 12.7
+  },
+  "script-journey/6-nian": {
+   "hash": "d502ab282844",
+   "seconds": 12.5
+  },
+  "she-character/0-dad": {
+   "hash": "103e8cf05442",
+   "seconds": 17.54
+  },
+  "she-character/0-nian": {
+   "hash": "4de08ea800ac",
+   "seconds": 7.63
+  },
+  "she-character/1-dad": {
+   "hash": "cc802563357b",
+   "seconds": 18.65
+  },
+  "she-character/1-nian": {
+   "hash": "502aa520b80e",
+   "seconds": 5.4
+  },
+  "she-character/2-dad": {
+   "hash": "7c78fb46d2c2",
+   "seconds": 19.15
+  },
+  "she-character/2-nian": {
+   "hash": "6d4ac8f610ef",
+   "seconds": 3.91
+  },
+  "she-character/3-dad": {
+   "hash": "39fc56f16cc4",
+   "seconds": 16.34
+  },
+  "she-character/3-nian": {
+   "hash": "067c7a6a8739",
+   "seconds": 5.62
+  },
+  "she-character/4-dad": {
+   "hash": "b7684b415757",
+   "seconds": 13.63
+  },
+  "she-character/4-nian": {
+   "hash": "6157380d3c15",
+   "seconds": 4.99
+  },
+  "she-character/5-dad": {
+   "hash": "23e3cf866487",
+   "seconds": 16.32
+  },
+  "she-character/5-nian": {
+   "hash": "d462467337ee",
+   "seconds": 6.05
+  },
+  "she-character/6-dad": {
+   "hash": "95e70d4973c6",
+   "seconds": 14.52
+  },
+  "she-character/6-nian": {
+   "hash": "74f190c96a8b",
+   "seconds": 10.73
+  },
+  "simplified/0-dad": {
+   "hash": "d22be1cc403e",
+   "seconds": 21.19
+  },
+  "simplified/0-nian": {
+   "hash": "a23cdaaa8e9c",
+   "seconds": 5.86
+  },
+  "simplified/1-dad": {
+   "hash": "ea043fcee25f",
+   "seconds": 22.61
+  },
+  "simplified/1-nian": {
+   "hash": "f121e8338d97",
+   "seconds": 2.62
+  },
+  "simplified/2-dad": {
+   "hash": "9fc0024632a7",
+   "seconds": 16.7
+  },
+  "simplified/2-nian": {
+   "hash": "f57b494bb6ed",
+   "seconds": 3.94
+  },
+  "simplified/3-dad": {
+   "hash": "20a148d3b264",
+   "seconds": 19.58
+  },
+  "simplified/3-nian": {
+   "hash": "7e29a576fad2",
+   "seconds": 3.84
+  },
+  "simplified/4-dad": {
+   "hash": "ad2909b2f7f2",
+   "seconds": 21.07
+  },
+  "simplified/4-nian": {
+   "hash": "e185c9fee0c5",
+   "seconds": 4.2
+  },
+  "simplified/5-dad": {
+   "hash": "38759c6130fc",
+   "seconds": 20.45
+  },
+  "simplified/5-nian": {
+   "hash": "aa77a09c4062",
+   "seconds": 4.03
+  },
+  "simplified/6-dad": {
+   "hash": "dcb2fae3ed0f",
+   "seconds": 9.14
+  },
+  "simplified/6-nian": {
+   "hash": "1113f0fd80c1",
+   "seconds": 11.64
+  },
+  "slender-gold/0-dad": {
+   "hash": "cd2da9c982e7",
+   "seconds": 13.08
+  },
+  "slender-gold/0-nian": {
+   "hash": "44d7bc493139",
+   "seconds": 5.5
+  },
+  "slender-gold/1-dad": {
+   "hash": "6158d57d9b2a",
+   "seconds": 16.49
+  },
+  "slender-gold/1-nian": {
+   "hash": "10713915b32c",
+   "seconds": 5.04
+  },
+  "slender-gold/2-dad": {
+   "hash": "2e897153c8b5",
+   "seconds": 18.65
+  },
+  "slender-gold/2-nian": {
+   "hash": "b62439a31c06",
+   "seconds": 5.26
+  },
+  "slender-gold/3-dad": {
+   "hash": "436323231ce8",
+   "seconds": 15.24
+  },
+  "slender-gold/3-nian": {
+   "hash": "cf4abccb72da",
+   "seconds": 4.18
+  },
+  "slender-gold/4-dad": {
+   "hash": "94a730aab000",
+   "seconds": 16.9
+  },
+  "slender-gold/4-nian": {
+   "hash": "1f08dd2b9085",
+   "seconds": 4.82
+  },
+  "slender-gold/5-dad": {
+   "hash": "46f3a7fab059",
+   "seconds": 10.1
+  },
+  "slender-gold/5-nian": {
+   "hash": "2175f1e68d9c",
+   "seconds": 13.54
+  },
+  "spring-couplet/0-dad": {
+   "hash": "94179ad6c9e6",
+   "seconds": 18.55
+  },
+  "spring-couplet/0-nian": {
+   "hash": "7ce21c4f816c",
+   "seconds": 6.46
+  },
+  "spring-couplet/1-dad": {
+   "hash": "8d8708128785",
+   "seconds": 19.13
+  },
+  "spring-couplet/1-nian": {
+   "hash": "6fad5b82f795",
+   "seconds": 4.61
+  },
+  "spring-couplet/2-dad": {
+   "hash": "5107072152cc",
+   "seconds": 21.1
+  },
+  "spring-couplet/2-nian": {
+   "hash": "27c6e22eb499",
+   "seconds": 5.71
+  },
+  "spring-couplet/3-dad": {
+   "hash": "ad3600274802",
+   "seconds": 20.71
+  },
+  "spring-couplet/3-nian": {
+   "hash": "14ac0988ee3b",
+   "seconds": 4.51
+  },
+  "spring-couplet/4-dad": {
+   "hash": "8a74ce7b5ad2",
+   "seconds": 19.22
+  },
+  "spring-couplet/4-nian": {
+   "hash": "6d05ac2d6e8f",
+   "seconds": 5.3
+  },
+  "spring-couplet/5-dad": {
+   "hash": "cb7ebf5361f7",
+   "seconds": 18.38
+  },
+  "spring-couplet/5-nian": {
+   "hash": "7a16e6d73acb",
+   "seconds": 6.79
+  },
+  "spring-couplet/6-dad": {
+   "hash": "c02b2e4012f3",
+   "seconds": 12.19
+  },
+  "spring-couplet/6-nian": {
+   "hash": "c713a19d4bb2",
+   "seconds": 13.49
+  },
+  "square-beauty/0-dad": {
+   "hash": "00b12b973e3c",
+   "seconds": 17.78
+  },
+  "square-beauty/0-nian": {
+   "hash": "74a198cf5b71",
+   "seconds": 7.37
+  },
+  "square-beauty/1-dad": {
+   "hash": "532d0e53b81c",
+   "seconds": 15.79
+  },
+  "square-beauty/1-nian": {
+   "hash": "36648fb83e90",
+   "seconds": 4.78
+  },
+  "square-beauty/2-dad": {
+   "hash": "f6510831d144",
+   "seconds": 21.67
+  },
+  "square-beauty/2-nian": {
+   "hash": "8d35561346ed",
+   "seconds": 5.71
+  },
+  "square-beauty/3-dad": {
+   "hash": "45a6cf7291ce",
+   "seconds": 20.06
+  },
+  "square-beauty/3-nian": {
+   "hash": "4de35265a608",
+   "seconds": 5.57
+  },
+  "square-beauty/4-dad": {
+   "hash": "73ea73a602d0",
+   "seconds": 17.02
+  },
+  "square-beauty/4-nian": {
+   "hash": "4cf82b76c9a0",
+   "seconds": 5.3
+  },
+  "square-beauty/5-dad": {
+   "hash": "dabaac7add13",
+   "seconds": 20.83
+  },
+  "square-beauty/5-nian": {
+   "hash": "92d991d1e609",
+   "seconds": 7.06
+  },
+  "square-beauty/6-dad": {
+   "hash": "98e31bdc31e7",
+   "seconds": 13.66
+  },
+  "square-beauty/6-nian": {
+   "hash": "28cd7a79abe3",
+   "seconds": 15.58
+  },
+  "stroke-order/0-dad": {
+   "hash": "4b17e7db3cf9",
+   "seconds": 17.35
+  },
+  "stroke-order/0-nian": {
+   "hash": "3674d562c29a",
+   "seconds": 5.81
+  },
+  "stroke-order/1-dad": {
+   "hash": "427e6a10a5fd",
+   "seconds": 18
+  },
+  "stroke-order/1-nian": {
+   "hash": "5d484544f16a",
+   "seconds": 2.78
+  },
+  "stroke-order/2-dad": {
+   "hash": "6ebae7aedca7",
+   "seconds": 20.83
+  },
+  "stroke-order/2-nian": {
+   "hash": "16c141e5328a",
+   "seconds": 4.8
+  },
+  "stroke-order/3-dad": {
+   "hash": "832fd1781d35",
+   "seconds": 22.1
+  },
+  "stroke-order/3-nian": {
+   "hash": "fc4de5d7514a",
+   "seconds": 3.62
+  },
+  "stroke-order/4-dad": {
+   "hash": "e527e49b6f89",
+   "seconds": 19.2
+  },
+  "stroke-order/4-nian": {
+   "hash": "ecffac24b3ac",
+   "seconds": 4.44
+  },
+  "stroke-order/5-dad": {
+   "hash": "3927472ba9e7",
+   "seconds": 19.63
+  },
+  "stroke-order/5-nian": {
+   "hash": "c1417a779987",
+   "seconds": 4.94
+  },
+  "stroke-order/6-dad": {
+   "hash": "111a2738d638",
+   "seconds": 10.25
+  },
+  "stroke-order/6-nian": {
+   "hash": "f89d74b4447c",
+   "seconds": 12.91
+  },
+  "sun-square/0-dad": {
+   "hash": "741065f1f9a5",
+   "seconds": 19.8
+  },
+  "sun-square/0-nian": {
+   "hash": "14274cff8f2c",
+   "seconds": 5.71
+  },
+  "sun-square/1-dad": {
+   "hash": "921e4371b11e",
+   "seconds": 19.08
+  },
+  "sun-square/1-nian": {
+   "hash": "86446f677231",
+   "seconds": 3.19
+  },
+  "sun-square/2-dad": {
+   "hash": "ffe835a2e2d0",
+   "seconds": 20.59
+  },
+  "sun-square/2-nian": {
+   "hash": "3107aefa3033",
+   "seconds": 3.74
+  },
+  "sun-square/3-dad": {
+   "hash": "557f802a058e",
+   "seconds": 20.11
+  },
+  "sun-square/3-nian": {
+   "hash": "2aa0ce0ae0c3",
+   "seconds": 4.39
+  },
+  "sun-square/4-dad": {
+   "hash": "047f5150643f",
+   "seconds": 19.87
+  },
+  "sun-square/4-nian": {
+   "hash": "24e8e100adf5",
+   "seconds": 4.85
+  },
+  "sun-square/5-dad": {
+   "hash": "9dfe1b3e0e44",
+   "seconds": 15.53
+  },
+  "sun-square/5-nian": {
+   "hash": "e7d18796763d",
+   "seconds": 6.86
+  },
+  "sun-square/6-dad": {
+   "hash": "0446ba261744",
+   "seconds": 12.48
+  },
+  "sun-square/6-nian": {
+   "hash": "db5c1ac28682",
+   "seconds": 10.18
+  },
+  "sweet-mouth/0-dad": {
+   "hash": "459d3a9d7cfc",
+   "seconds": 18.67
+  },
+  "sweet-mouth/0-nian": {
+   "hash": "4ecd28b64c95",
+   "seconds": 5.3
+  },
+  "sweet-mouth/1-dad": {
+   "hash": "840f8fee98e7",
+   "seconds": 22.56
+  },
+  "sweet-mouth/1-nian": {
+   "hash": "d140f54311d6",
+   "seconds": 5.5
+  },
+  "sweet-mouth/2-dad": {
+   "hash": "7955be8b794e",
+   "seconds": 24.53
+  },
+  "sweet-mouth/2-nian": {
+   "hash": "1ca39abb6701",
+   "seconds": 4.39
+  },
+  "sweet-mouth/3-dad": {
+   "hash": "134505c2b1cd",
+   "seconds": 19.82
+  },
+  "sweet-mouth/3-nian": {
+   "hash": "e475c4ad4011",
+   "seconds": 3.84
+  },
+  "sweet-mouth/4-dad": {
+   "hash": "f955e42f4493",
+   "seconds": 16.18
+  },
+  "sweet-mouth/4-nian": {
+   "hash": "4e88a9bebf0f",
+   "seconds": 5.18
+  },
+  "sweet-mouth/5-dad": {
+   "hash": "c553bc4a4096",
+   "seconds": 13.25
+  },
+  "sweet-mouth/5-nian": {
+   "hash": "8d5530c3c546",
+   "seconds": 10.42
+  },
+  "triple-stack/0-dad": {
+   "hash": "2381c9766d26",
+   "seconds": 16.22
+  },
+  "triple-stack/0-nian": {
+   "hash": "77cb039ef15d",
+   "seconds": 6.05
+  },
+  "triple-stack/1-dad": {
+   "hash": "dcc040859939",
+   "seconds": 16.54
+  },
+  "triple-stack/1-nian": {
+   "hash": "4db274ef2107",
+   "seconds": 5.83
+  },
+  "triple-stack/2-dad": {
+   "hash": "7f43224b57db",
+   "seconds": 23.02
+  },
+  "triple-stack/2-nian": {
+   "hash": "7bc841b43874",
+   "seconds": 3.48
+  },
+  "triple-stack/3-dad": {
+   "hash": "fb664ce56f5e",
+   "seconds": 16.78
+  },
+  "triple-stack/3-nian": {
+   "hash": "f8ec2db9e747",
+   "seconds": 6.34
+  },
+  "triple-stack/4-dad": {
+   "hash": "1df04f12944b",
+   "seconds": 19.27
+  },
+  "triple-stack/4-nian": {
+   "hash": "d0ffc05b098a",
+   "seconds": 6.58
+  },
+  "triple-stack/5-dad": {
+   "hash": "3cbdf8e4d1ba",
+   "seconds": 14.64
+  },
+  "triple-stack/5-nian": {
+   "hash": "9bdd7eddf3ef",
+   "seconds": 12.29
+  },
+  "two-sounds/0-dad": {
+   "hash": "8a08af41a0b8",
+   "seconds": 17.9
+  },
+  "two-sounds/0-nian": {
+   "hash": "beb29f66e403",
+   "seconds": 6.38
+  },
+  "two-sounds/1-dad": {
+   "hash": "33be387a612e",
+   "seconds": 22.06
+  },
+  "two-sounds/1-nian": {
+   "hash": "e099ed3091bf",
+   "seconds": 4.61
+  },
+  "two-sounds/2-dad": {
+   "hash": "0f913612c51f",
+   "seconds": 18.19
+  },
+  "two-sounds/2-nian": {
+   "hash": "ce81f10acb4e",
+   "seconds": 5.4
+  },
+  "two-sounds/3-dad": {
+   "hash": "684c59607e33",
+   "seconds": 20.16
+  },
+  "two-sounds/3-nian": {
+   "hash": "3a8eb6af0432",
+   "seconds": 5.9
+  },
+  "two-sounds/4-dad": {
+   "hash": "13646ab9b6f6",
+   "seconds": 18.36
+  },
+  "two-sounds/4-nian": {
+   "hash": "011eb8ba35c0",
+   "seconds": 5.78
+  },
+  "two-sounds/5-dad": {
+   "hash": "3717ce2f590e",
+   "seconds": 21.58
+  },
+  "two-sounds/5-nian": {
+   "hash": "ab63edb58d4a",
+   "seconds": 6.24
+  },
+  "two-sounds/6-dad": {
+   "hash": "cc4468e303f7",
+   "seconds": 11.9
+  },
+  "two-sounds/6-nian": {
+   "hash": "21cc79a738c0",
+   "seconds": 12.19
+  },
+  "up-down/0-dad": {
+   "hash": "8b048ce6c7b0",
+   "seconds": 16.92
+  },
+  "up-down/0-nian": {
+   "hash": "6307427b8fbd",
+   "seconds": 5.35
+  },
+  "up-down/1-dad": {
+   "hash": "d40cd5d2e819",
+   "seconds": 17.74
+  },
+  "up-down/1-nian": {
+   "hash": "9db3137f81dd",
+   "seconds": 5.33
+  },
+  "up-down/2-dad": {
+   "hash": "fc8218185904",
+   "seconds": 18.1
+  },
+  "up-down/2-nian": {
+   "hash": "84fea7827d74",
+   "seconds": 4.34
+  },
+  "up-down/3-dad": {
+   "hash": "eaa0ea33874e",
+   "seconds": 18.02
+  },
+  "up-down/3-nian": {
+   "hash": "1b334349d4f7",
+   "seconds": 5.23
+  },
+  "up-down/4-dad": {
+   "hash": "8d5d772396c8",
+   "seconds": 20.64
+  },
+  "up-down/4-nian": {
+   "hash": "53caec6b2e5a",
+   "seconds": 5.35
+  },
+  "up-down/5-dad": {
+   "hash": "5b3fe2d59c9e",
+   "seconds": 13.8
+  },
+  "up-down/5-nian": {
+   "hash": "42b5e5c3a675",
+   "seconds": 11.74
+  },
+  "upside-fu/0-dad": {
+   "hash": "a28105415014",
+   "seconds": 14.81
+  },
+  "upside-fu/0-nian": {
+   "hash": "386091382fcd",
+   "seconds": 5.04
+  },
+  "upside-fu/1-dad": {
+   "hash": "f1c658be9ce8",
+   "seconds": 16.78
+  },
+  "upside-fu/1-nian": {
+   "hash": "7e9bcc215bbe",
+   "seconds": 4.56
+  },
+  "upside-fu/2-dad": {
+   "hash": "737f14e50e9f",
+   "seconds": 15.89
+  },
+  "upside-fu/2-nian": {
+   "hash": "41c1648a7e06",
+   "seconds": 3.89
+  },
+  "upside-fu/3-dad": {
+   "hash": "8afbbcbf65e2",
+   "seconds": 18.07
+  },
+  "upside-fu/3-nian": {
+   "hash": "d9317f058624",
+   "seconds": 4.51
+  },
+  "upside-fu/4-dad": {
+   "hash": "46e4f17bd81f",
+   "seconds": 18.94
+  },
+  "upside-fu/4-nian": {
+   "hash": "7ea587d55efc",
+   "seconds": 5.59
+  },
+  "upside-fu/5-dad": {
+   "hash": "ca0e6b8fc4ef",
+   "seconds": 18.29
+  },
+  "upside-fu/5-nian": {
+   "hash": "def9721d9467",
+   "seconds": 5.54
+  },
+  "upside-fu/6-dad": {
+   "hash": "8f991851a81d",
+   "seconds": 13.7
+  },
+  "upside-fu/6-nian": {
+   "hash": "802e8dfd477d",
+   "seconds": 11.64
+  },
+  "water-radical/0-dad": {
+   "hash": "9e0b2ae0f5ad",
+   "seconds": 21.67
+  },
+  "water-radical/0-nian": {
+   "hash": "53faa74e0175",
+   "seconds": 6.43
+  },
+  "water-radical/1-dad": {
+   "hash": "f8e01c28a48b",
+   "seconds": 15.84
+  },
+  "water-radical/1-nian": {
+   "hash": "47b83abe62bf",
+   "seconds": 5.16
+  },
+  "water-radical/2-dad": {
+   "hash": "7037a8e83b0d",
+   "seconds": 20.38
+  },
+  "water-radical/2-nian": {
+   "hash": "61f4b863b804",
+   "seconds": 4.42
+  },
+  "water-radical/3-dad": {
+   "hash": "85a5a5c9a1c3",
+   "seconds": 18.55
+  },
+  "water-radical/3-nian": {
+   "hash": "e065cab3f243",
+   "seconds": 6.41
+  },
+  "water-radical/4-dad": {
+   "hash": "6ebfa30d8f1c",
+   "seconds": 22.97
+  },
+  "water-radical/4-nian": {
+   "hash": "04a38cb8af6e",
+   "seconds": 6
+  },
+  "water-radical/5-dad": {
+   "hash": "8ccf662c4401",
+   "seconds": 15
+  },
+  "water-radical/5-nian": {
+   "hash": "b465d782bc24",
+   "seconds": 8.38
+  },
+  "wild-cursive/0-dad": {
+   "hash": "a8b60e169ad9",
+   "seconds": 19.58
+  },
+  "wild-cursive/0-nian": {
+   "hash": "58c273fbcefc",
+   "seconds": 6.02
+  },
+  "wild-cursive/1-dad": {
+   "hash": "cd8f7433714e",
+   "seconds": 15.6
+  },
+  "wild-cursive/1-nian": {
+   "hash": "764bf8aa1092",
+   "seconds": 4.32
+  },
+  "wild-cursive/2-dad": {
+   "hash": "e22463a4d8f6",
+   "seconds": 19.63
+  },
+  "wild-cursive/2-nian": {
+   "hash": "47cf5933cd72",
+   "seconds": 5.26
+  },
+  "wild-cursive/3-dad": {
+   "hash": "d34208dd24ce",
+   "seconds": 19.63
+  },
+  "wild-cursive/3-nian": {
+   "hash": "8e8f0a48dbe5",
+   "seconds": 5.21
+  },
+  "wild-cursive/4-dad": {
+   "hash": "f8f784b9ee7a",
+   "seconds": 17.18
+  },
+  "wild-cursive/4-nian": {
+   "hash": "2cf618d4cca8",
+   "seconds": 5.69
+  },
+  "wild-cursive/5-dad": {
+   "hash": "ec0cf44d7223",
+   "seconds": 24.22
+  },
+  "wild-cursive/5-nian": {
+   "hash": "80cb76238616",
+   "seconds": 5.38
+  },
+  "wild-cursive/6-dad": {
+   "hash": "12a8d24ee9b4",
+   "seconds": 9.7
+  },
+  "wild-cursive/6-nian": {
+   "hash": "dc2856776975",
+   "seconds": 13.3
+  },
+  "yan-liu/0-dad": {
+   "hash": "d212a3f606be",
+   "seconds": 24.48
+  },
+  "yan-liu/0-nian": {
+   "hash": "7f9a9e552d40",
+   "seconds": 5.88
+  },
+  "yan-liu/1-dad": {
+   "hash": "f7ecea2d396a",
+   "seconds": 20.16
+  },
+  "yan-liu/1-nian": {
+   "hash": "41062c3dc6f3",
+   "seconds": 4.68
+  },
+  "yan-liu/2-dad": {
+   "hash": "f3088019bc04",
+   "seconds": 16.56
+  },
+  "yan-liu/2-nian": {
+   "hash": "9c90cd42b374",
+   "seconds": 5.57
+  },
+  "yan-liu/3-dad": {
+   "hash": "5e18533604a9",
+   "seconds": 19.97
+  },
+  "yan-liu/3-nian": {
+   "hash": "10ed958765c6",
+   "seconds": 5.06
+  },
+  "yan-liu/4-dad": {
+   "hash": "325ecf4dc3db",
+   "seconds": 21.36
+  },
+  "yan-liu/4-nian": {
+   "hash": "82506329a5e1",
+   "seconds": 4.78
+  },
+  "yan-liu/5-dad": {
+   "hash": "d26c3adea5f2",
+   "seconds": 12.24
+  },
+  "yan-liu/5-nian": {
+   "hash": "d64193d3b734",
+   "seconds": 13.99
+  },
+  "yong-eight/0-dad": {
+   "hash": "13a26abc0883",
+   "seconds": 20.78
+  },
+  "yong-eight/0-nian": {
+   "hash": "22abf7852f1d",
+   "seconds": 4.82
+  },
+  "yong-eight/1-dad": {
+   "hash": "e6753644d33d",
+   "seconds": 20.18
+  },
+  "yong-eight/1-nian": {
+   "hash": "8472333c73cb",
+   "seconds": 4.68
+  },
+  "yong-eight/2-dad": {
+   "hash": "bc93f170fa81",
+   "seconds": 18.41
+  },
+  "yong-eight/2-nian": {
+   "hash": "1bb6b4cc91de",
+   "seconds": 4.85
+  },
+  "yong-eight/3-dad": {
+   "hash": "504d41611199",
+   "seconds": 19.54
+  },
+  "yong-eight/3-nian": {
+   "hash": "bde75606d80e",
+   "seconds": 4.22
+  },
+  "yong-eight/4-dad": {
+   "hash": "2caa70795504",
+   "seconds": 17.95
+  },
+  "yong-eight/4-nian": {
+   "hash": "0485a055a629",
+   "seconds": 2.74
+  },
+  "yong-eight/5-dad": {
+   "hash": "8cad4677171e",
+   "seconds": 18.41
+  },
+  "yong-eight/5-nian": {
+   "hash": "1350ea6606e7",
+   "seconds": 4.51
+  },
+  "yong-eight/6-dad": {
+   "hash": "ebf6c85f9be2",
+   "seconds": 11.81
+  },
+  "yong-eight/6-nian": {
+   "hash": "0065a36c85cd",
+   "seconds": 14.02
+  },
+  "zetian/0-dad": {
+   "hash": "eca657719112",
+   "seconds": 13.58
+  },
+  "zetian/0-nian": {
+   "hash": "bee9dc6a5e6c",
+   "seconds": 5.71
+  },
+  "zetian/1-dad": {
+   "hash": "717811c9cbe6",
+   "seconds": 18.24
+  },
+  "zetian/1-nian": {
+   "hash": "834a2af0c4e9",
+   "seconds": 3.77
+  },
+  "zetian/2-dad": {
+   "hash": "f8f94df5b0a7",
+   "seconds": 13.56
+  },
+  "zetian/2-nian": {
+   "hash": "17eb7ba8b6bc",
+   "seconds": 4.37
+  },
+  "zetian/3-dad": {
+   "hash": "eac5b93f169f",
+   "seconds": 17.47
+  },
+  "zetian/3-nian": {
+   "hash": "32edc360654b",
+   "seconds": 4.08
+  },
+  "zetian/4-dad": {
+   "hash": "3097d53e9ac5",
+   "seconds": 14.52
+  },
+  "zetian/4-nian": {
+   "hash": "31f0bd0f53b5",
+   "seconds": 5.33
+  },
+  "zetian/5-dad": {
+   "hash": "2956b2dfa7e5",
+   "seconds": 13.51
+  },
+  "zetian/5-nian": {
+   "hash": "213a230c802c",
+   "seconds": 5.76
+  },
+  "zetian/6-dad": {
+   "hash": "25614416dbe0",
+   "seconds": 16.9
+  },
+  "zetian/6-nian": {
+   "hash": "da3d2195f54b",
+   "seconds": 9.46
+  },
+  "zodiac/0-dad": {
+   "hash": "231107146981",
+   "seconds": 19.82
+  },
+  "zodiac/0-nian": {
+   "hash": "691c2e026896",
+   "seconds": 8.21
+  },
+  "zodiac/1-dad": {
+   "hash": "a3207ddff563",
+   "seconds": 15.72
+  },
+  "zodiac/1-nian": {
+   "hash": "2ab5ce19ff47",
+   "seconds": 5.23
+  },
+  "zodiac/2-dad": {
+   "hash": "b86b81a68374",
+   "seconds": 20.35
+  },
+  "zodiac/2-nian": {
+   "hash": "f0dbfefec666",
+   "seconds": 6.62
+  },
+  "zodiac/3-dad": {
+   "hash": "02c6f3dc4c9a",
+   "seconds": 20.95
+  },
+  "zodiac/3-nian": {
+   "hash": "326ad0e2b1c1",
+   "seconds": 6.6
+  },
+  "zodiac/4-dad": {
+   "hash": "e4d51fa75384",
+   "seconds": 19.78
+  },
+  "zodiac/4-nian": {
+   "hash": "a43e01567691",
+   "seconds": 7.13
+  },
+  "zodiac/5-dad": {
+   "hash": "19ee1aa676cc",
+   "seconds": 4.08
+  },
+  "zodiac/5-nian": {
+   "hash": "cc7323d7dd57",
+   "seconds": 3.91
+  },
+  "zodiac/6-dad": {
+   "hash": "3136db73f000",
+   "seconds": 11.38
+  },
+  "zodiac/6-nian": {
+   "hash": "22ceeacdc3d1",
+   "seconds": 12.24
+  }
+ }
+}
