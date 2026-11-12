@@ -6,8 +6,8 @@ import type { Form, Script } from "../data/films/types";
 export const scriptFamily: Record<Script, string> = {
   oracle: '"HanOracle", serif',
   seal: '"HanSeal", serif',
-  kai: '"Ma Shan Zheng", "KaiTi", "STKaiti", serif',
-  song: '"Noto Serif SC", "Songti SC", "SimSun", serif'
+  kai: '"Ma Shan Zheng", "Kaiti SC", "STKaiti", "KaiTi", serif',
+  song: '"Songti SC", "Noto Serif SC", "STSong", "SimSun", serif'
 };
 
 /** 查字页什么字都可能查，用完整的小篆字体（8 MB 多，只在查字页加载） */

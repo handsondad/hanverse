@@ -33,33 +33,34 @@
 
 .film-title {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 8px;
+  left: 8px;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 6px 14px 6px 6px;
+  gap: 6px;
+  padding: 4px 12px 4px 4px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.92);
   box-shadow: 0 2px 8px rgba(93, 78, 55, 0.15);
   font-weight: 800;
-  font-size: 1rem;
+  font-size: 0.88rem;
+  line-height: 1.2;
+  pointer-events: none;
 }
 .film-title b {
   display: grid;
   place-items: center;
-  width: 26px;
-  height: 26px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
   background: #ff9f43;
   color: #fff;
-  font-size: 0.85rem;
+  font-size: 0.76rem;
 }
 /* 窄的舞台上标题会压住画面顶上的字；播放器下面的场次按钮已经写着标题，这里只留编号 */
 @container film-stage (max-width: 600px) {
   .film-title { top: 6px; left: 6px; padding: 3px; }
   .film-title span { display: none; }
-  .film-title b { width: 22px; height: 22px; font-size: 0.75rem; }
 }
 
 .film-myth {
@@ -115,9 +116,13 @@
   color: #fff;
   font-size: 1rem;
   box-shadow: 0 3px 0 #e07f22;
+  transition: background 0.15s, transform 0.1s, box-shadow 0.1s;
 }
+.film-play:hover { background: #ff922b; }
 .film-play:active { transform: translateY(2px); box-shadow: 0 1px 0 #e07f22; }
-.film-controls input[type="range"] { width: 100%; accent-color: #ff9f43; }
+.film-voice { transition: background 0.15s, border-color 0.15s; }
+.film-voice:hover { background: #fff1de; border-color: #ffbe7b; }
+.film-controls input[type="range"] { width: 100%; accent-color: #ff9f43; cursor: pointer; }
 .film-time { font-variant-numeric: tabular-nums; color: var(--text-secondary, #7a6a55); font-size: 0.85rem; }
 
 .film-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
@@ -130,7 +135,9 @@
   border-radius: 999px;
   background: #fffaf3;
   font-size: 0.82rem;
+  transition: background 0.15s, border-color 0.15s;
 }
+.film-chips button:hover { background: #fff3e2; border-color: #ffc98f; }
 .film-chips b {
   display: grid;
   place-items: center;

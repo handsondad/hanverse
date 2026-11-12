@@ -54,20 +54,22 @@ export default function ZiPage({ char = "马", onZi, onOpen, onBack, backLabel }
     setStep(null);
   }, [char]);
 
+  const zi = data ? lookupZi(data, char) : undefined;
+  const hasAncient = Boolean(zi && (zi.oracleChar || zi.sealChar));
+  const talked = questionsAbout(char);
+
   useEffect(() => {
     if (step === null || step >= 2) return;
-    const timer = window.setTimeout(() => setStep(step + 1), reducedMotion ? 400 : 1300);
+    const next = step === 0 && !zi?.sealChar ? 2 : step + 1;
+    const timer = window.setTimeout(() => setStep(next), reducedMotion ? 400 : 1300);
     return () => window.clearTimeout(timer);
-  }, [step, reducedMotion]);
+  }, [step, reducedMotion, zi?.sealChar]);
 
   const submit = (event: FormEvent) => {
     event.preventDefault();
     const found = firstHan(input);
     if (found) onZi(found);
   };
-
-  const zi = data ? lookupZi(data, char) : undefined;
-  const talked = questionsAbout(char);
 
   return (
     <div className="zi">
@@ -106,10 +108,16 @@ export default function ZiPage({ char = "马", onZi, onOpen, onBack, backLabel }
               ))}
             </ol>
             <div className="zi-life-foot">
-              {zi.traditional !== zi.char && (
-                <p>繁体写作 <b style={{ fontFamily: scriptFamily.song }}>{zi.traditional}</b>，简化以后写作 <b>{zi.char}</b>。</p>
+              {zi.traditional !== zi.char ? (
+                <p>繁体写作 <b style={{ fontFamily: scriptFamily.song }}>{zi.traditional}</b>，简化以后写作 <b>{zi.char}</b>{!hasAncient ? "；它出现得比较晚，古文字里还没有收。" : "。"}</p>
+              ) : (
+                !hasAncient && <p>这个字出现得比较晚，甲骨文和小篆里还没有它。</p>
               )}
-              <button type="button" className="zi-play" onClick={() => setStep(0)}>▶ 看它长大</button>
+              {hasAncient && (
+                <button type="button" className="zi-play" onClick={() => setStep(zi.oracleChar ? 0 : 1)}>
+                  {step !== null && step < 2 ? "⏳ 正在长大……" : "▶ 看它长大"}
+                </button>
+              )}
             </div>
           </section>
 

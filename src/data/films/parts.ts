@@ -323,8 +323,8 @@ export const films: readonly Film[] = [
       {
         turn: 4, title: "小鸟停在树上", duration: 13,
         cues: [
-          { kind: "glyph", char: "小", at: [330, 230], size: 150, path: [[600, 250]], travel: 1.2, from: 0.4, to: 6.2 },
-          { kind: "glyph", char: "隹", at: [870, 480], size: 150, path: [[600, 450]], travel: 1.2, from: 1, to: 6.2 },
+          { kind: "glyph", char: "小", at: [330, 230], size: 150, path: [[600, 250]], travel: 1.2, from: 0.4, to: 3 },
+          { kind: "glyph", char: "隹", at: [870, 480], size: 150, path: [[600, 450]], travel: 1.2, from: 1, to: 3 },
           { kind: "glyph", char: "雀", at: [600, 360], size: 300, caption: "小小的鸟：雀", from: 3, to: 6.2 },
           { kind: "glyph", char: "木", script: "oracle", at: [380, 560], size: 260, caption: "木：树", from: 6.4 },
           { kind: "glyph", char: "隹", script: "oracle", at: [160, 220], size: 160, path: [[380, 360]], travel: 1.6, from: 7.2 },

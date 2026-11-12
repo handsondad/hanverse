@@ -53,13 +53,26 @@ export function firstHan(raw: string): string | undefined {
   return [...raw].find(isHan);
 }
 
+/** yigezi 的简繁表按《说文》筛过，补上问答里会点进来的常见简化字（如「尘 → 塵」在甲骨文字体里有字形） */
+const extraTraditional: Readonly<Record<string, string>> = {
+  尘: "塵", 妈: "媽", 吗: "嗎", 码: "碼", 蚂: "螞",
+  鲨: "鯊", 氢: "氫", 锂: "鋰", 钠: "鈉", 脸: "臉", 狮: "獅"
+};
+
+function memberRank(data: ZiData, item: string): number {
+  const code = item.codePointAt(0) ?? 0;
+  if (code < 0x4e00 || code > 0x9fff) return 3;
+  if (data.oracle.includes(item) || data.seal.includes(item)) return 0;
+  return data.shuowen[item] ? 1 : 2;
+}
+
 /** 和 yigezi 一样：繁体候选里先挑《说文》收了或甲骨文里有的那个 */
 export function lookupZi(data: ZiData, char: string): ZiLookup {
-  const candidates = [...(data.toTraditional[char] ?? "")];
+  const candidates = [...(data.toTraditional[char] ?? extraTraditional[char] ?? "")];
   const traditional = candidates.find((item) => data.shuowen[item] || data.oracle.includes(item)) ?? candidates[0] ?? char;
   const pick = (set: string) => (set.includes(traditional) ? traditional : set.includes(char) ? char : undefined);
   const sound = data.seriesOf[char] ?? data.seriesOf[traditional];
-  const members = sound ? data.series[sound] : undefined;
+  const members = sound ? [...data.series[sound]].sort((a, b) => memberRank(data, a) - memberRank(data, b)) : undefined;
   return {
     char,
     traditional,

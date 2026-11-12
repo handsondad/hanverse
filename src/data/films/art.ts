@@ -235,7 +235,7 @@ export const films: readonly Film[] = [
         cues: [
           { kind: "image", src: "art/huaisu.jpg", at: [600, 330], size: [1000, 320], caption: "怀素《自叙帖》", from: 0.3 },
           { kind: "text", at: [600, 90], text: "草书：写得快，笔画连着", from: 1 },
-          { kind: "glyph", char: "舞", script: "oracle", at: [220, 720], size: 200, caption: "甲骨文的舞", from: 4 },
+          { kind: "glyph", char: "舞", script: "oracle", at: [220, 695], size: 190, caption: "甲骨文的舞", from: 4 },
           { kind: "text", at: [700, 690], text: "颠张 · 醉素", size: "l", from: 7 },
           { kind: "sprite", icon: "🍶", path: [[1020, 720]], size: 100, from: 8.5 }
         ]

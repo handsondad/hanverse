@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Ma+Shan+Zheng&display=swap');
 
 :root {
-  --app-font-family: 'Comic Neue', 'Ma Shan Zheng', cursive;
+  --font-kai: 'Ma Shan Zheng', 'Kaiti SC', 'STKaiti', 'KaiTi', serif;
+  --app-font-family: 'Comic Neue', 'Ma Shan Zheng', 'Kaiti SC', 'STKaiti', 'KaiTi', cursive;
   
   --bg-primary: #fff8f0;
   --bg-secondary: #fff0e6;
@@ -46,13 +47,16 @@
   box-sizing: border-box;
 }
 
-html, body, #root {
-  height: 100%;
+html {
+  min-height: 100%;
   margin: 0;
   padding: 0;
 }
 
 body {
+  min-height: 100dvh;
+  margin: 0;
+  padding: 0;
   font-family: var(--app-font-family);
   background: linear-gradient(180deg, #fff8f0 0%, #f0f8ff 50%, #fff0e6 100%);
   background-attachment: fixed;
@@ -60,7 +64,11 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+#root {
+  min-height: 100dvh;
 }
 
 body::before {

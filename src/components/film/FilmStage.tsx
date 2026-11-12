@@ -257,8 +257,10 @@ function GlyphText({ char, script, size, color, x = 0, y = 0, opacity }: { char:
   );
 }
 
-function Caption({ text, y, ctx }: { text: string; y: number; ctx: Ctx }) {
-  return <text className="film-text" y={y} fontSize={30 * ctx.ui} textAnchor="middle" dominantBaseline="central" fill="#7a6a55">{text}</text>;
+function Caption({ text, atX, atY, ctx }: { text: string; atX: number; atY: number; ctx: Ctx }) {
+  const size = 30 * ctx.ui;
+  const [cx, cy] = keepInside([atX, atY], ([...text].length * size) / 2, size / 2, ctx);
+  return <text className="film-text" x={cx - atX} y={cy - atY} fontSize={size} textAnchor="middle" dominantBaseline="central" fill="#7a6a55">{text}</text>;
 }
 
 function Glyph({ cue, ctx }: { cue: Extract<Cue, { kind: "glyph" }>; ctx: Ctx }) {
@@ -275,7 +277,7 @@ function Glyph({ cue, ctx }: { cue: Extract<Cue, { kind: "glyph" }>; ctx: Ctx })
       <g transform={`rotate(${rotate}) scale(${cue.mirror ? -scale : scale} ${scale})`}>
         <GlyphText char={cue.char} script={cue.script ?? "kai"} size={size} color={cue.color ?? ink} />
       </g>
-      {cue.caption && <Caption text={cue.caption} y={size * 0.62 + 22 * ctx.ui} ctx={ctx} />}
+      {cue.caption && <Caption text={cue.caption} atX={x} atY={y + size * 0.62 + 22 * ctx.ui} ctx={ctx} />}
     </g>
   );
 }
@@ -291,7 +293,7 @@ function Picture({ cue, ctx }: { cue: Extract<Cue, { kind: "image" }>; ctx: Ctx 
         <rect x={-w / 2 - mat} y={-h / 2 - mat} width={w + mat * 2} height={h + mat * 2} rx={6} fill="#fffdf7" stroke="#cdb994" strokeWidth={3} />
         <image href={`${import.meta.env.BASE_URL}${cue.src}`} x={-w / 2} y={-h / 2} width={w} height={h} preserveAspectRatio="xMidYMid meet" />
       </g>
-      {cue.caption && <Caption text={cue.caption} y={h / 2 + mat + 30 * ctx.ui} ctx={ctx} />}
+      {cue.caption && <Caption text={cue.caption} atX={x} atY={y + h / 2 + mat + 30 * ctx.ui} ctx={ctx} />}
     </g>
   );
 }
@@ -311,18 +313,22 @@ function Evolve({ cue, ctx }: { cue: Extract<Cue, { kind: "evolve" }>; ctx: Ctx 
   const size = cue.size ?? 260;
   const { index, blend } = evolveAt(ctx.t - cue.from, cue.forms.length, cue.every ?? 1.6);
   const next = cue.forms[index + 1];
-  const chipSize = 26 * ctx.ui;
+  const rawChipSize = 26 * ctx.ui;
   const labels = cue.forms.map(formLabel);
-  const chipWidths = labels.map((label) => [...label].length * chipSize + 22 * ctx.ui);
-  const gap = 14 * ctx.ui;
+  const rawRowWidth = labels.reduce((sum, label) => sum + [...label].length * rawChipSize + 22 * ctx.ui, 0) + 14 * ctx.ui * (labels.length - 1);
+  const fit = Math.min(1, (ctx.camera.width - 20 * ctx.k) / Math.max(rawRowWidth, 1));
+  const chipSize = rawChipSize * fit;
+  const chipWidths = labels.map((label) => ([...label].length * rawChipSize + 22 * ctx.ui) * fit);
+  const gap = 14 * ctx.ui * fit;
   const rowWidth = chipWidths.reduce((sum, w) => sum + w, 0) + gap * (labels.length - 1);
+  const [rowX, rowY] = keepInside([x, y + size * 0.62 + 30 * ctx.ui], rowWidth / 2, chipSize * 0.8, ctx);
   let cursor = -rowWidth / 2;
   const current = blend > 0.5 ? index + 1 : index;
   return (
     <g transform={`translate(${x} ${y})`} opacity={ctx.alpha}>
       <FormView form={cue.forms[index]} size={size} opacity={1 - blend} scale={1 - 0.08 * blend} />
       {next && blend > 0 && <FormView form={next} size={size} opacity={blend} scale={0.92 + 0.08 * blend} />}
-      <g transform={`translate(0 ${size * 0.62 + 30 * ctx.ui})`}>
+      <g transform={`translate(${rowX - x} ${rowY - y})`}>
         {labels.map((label, i) => {
           const width = chipWidths[i];
           const cx = cursor + width / 2;
