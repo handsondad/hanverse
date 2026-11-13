@@ -77,6 +77,81 @@ export const films: readonly Film[] = [
     ]
   },
   {
+    question: "punctuation-dots",
+    scenes: [
+      {
+        turn: 0, title: "没有标点的古书", view: "slips", duration: 12,
+        cues: [
+          { kind: "glyph", char: "子", at: [789, 250], size: 95, from: 0.3, to: 6.0 },
+          { kind: "glyph", char: "曰", at: [789, 380], size: 95, from: 0.5, to: 6.0 },
+          { kind: "glyph", char: "学", at: [789, 510], size: 95, from: 0.7, to: 6.0 },
+          { kind: "glyph", char: "而", at: [789, 640], size: 95, from: 0.9, to: 6.0 },
+          { kind: "sprite", icon: "😮‍💨", path: [[348, 430]], size: 130, wobble: true, from: 1.8, to: 6.0 },
+          { kind: "text", at: [600, 95], text: "密密麻麻，在哪儿喘气？", from: 2.2, to: 6.0 },
+          { kind: "glyph", char: "乎", at: [915, 360], size: 130, color: red, from: 6.2 },
+          { kind: "glyph", char: "哉", at: [663, 460], size: 130, color: red, from: 6.7 },
+          { kind: "glyph", char: "也", at: [411, 360], size: 130, color: red, from: 7.2 },
+          { kind: "glyph", char: "矣", at: [159, 460], size: 130, color: red, from: 7.7 },
+          { kind: "text", at: [600, 95], text: "靠语气词帮忙找停顿", from: 8.2 }
+        ]
+      },
+      {
+        turn: 1, title: "红笔点圈点", duration: 13,
+        cues: [
+          { kind: "glyph", char: "句", script: "oracle", at: [280, 360], size: 200, caption: "话说完了", from: 0.4, to: 7.4 },
+          { kind: "line", path: [[430, 385], [452, 395], [460, 418], [450, 440], [428, 448], [406, 438], [398, 416], [408, 394], [430, 385]], color: red, width: 8, draw: 0.7, from: 1.4, to: 7.4 },
+          { kind: "glyph", char: "讀", script: "seal", at: [800, 360], size: 200, caption: "念 dòu：稍停", from: 3.0, to: 7.4 },
+          { kind: "line", path: [[945, 395], [972, 432]], color: red, width: 16, draw: 0.4, from: 4.0, to: 7.4 },
+          { kind: "text", at: [600, 110], text: "句读（jù dòu）", from: 4.4, to: 7.4 },
+          { kind: "sprite", icon: "🖌️", path: [[240, 380]], size: 140, from: 7.6 },
+          { kind: "glyph", char: "圈", script: "seal", at: [560, 380], size: 210, color: red, caption: "小篆的圈", from: 8.0 },
+          { kind: "glyph", char: "點", script: "seal", at: [880, 380], size: 210, color: red, caption: "小篆的点", from: 8.6 },
+          { kind: "text", at: [600, 800], text: "好文章：可圈可点！", size: "l", color: red, from: 9.4 }
+        ]
+      },
+      {
+        turn: 2, title: "下雨天留客", duration: 12,
+        cues: [
+          { kind: "text", at: [600, 110], text: "下雨天留客天留我不留", size: "l", from: 0.3 },
+          { kind: "sprite", icon: "🏠", path: [[180, 350]], size: 110, from: 1.4, to: 5.0 },
+          { kind: "text", at: [520, 350], text: "天留，我不留", from: 1.8 },
+          { kind: "shape", shape: "pill", at: [960, 350], size: [190, 85], color: "#f6d6d0", text: "赶客走", from: 2.4 },
+          { kind: "sprite", icon: "🖌️", path: [[180, 580]], size: 110, from: 5.2 },
+          { kind: "text", at: [520, 580], text: "留我不？留！", color: red, from: 5.8 },
+          { kind: "shape", shape: "pill", at: [960, 580], size: [190, 85], color: "#d8f0d0", text: "留客住", from: 6.4 },
+          { kind: "text", at: [600, 810], text: "停顿一换，意思全反了！", from: 8.2 }
+        ]
+      },
+      {
+        turn: 3, title: "宋朝明朝的刻书", duration: 12,
+        cues: [
+          { kind: "text", at: [600, 110], text: "宋朝明朝：书上刻圈点竖线", from: 0.3, to: 7.0 },
+          { kind: "glyph", char: "書", script: "seal", at: [240, 340], size: 200, caption: "小篆的书", from: 0.8 },
+          { kind: "glyph", char: "文", script: "oracle", at: [560, 340], size: 200, caption: "甲骨文的文", from: 1.6 },
+          { kind: "line", path: [[820, 230], [820, 440]], color: red, width: 10, draw: 0.7, from: 2.8 },
+          { kind: "label", at: [820, 440], text: "单线：人名", side: "bottom", pos: [800, 530], color: red, from: 3.4, to: 6.8 },
+          { kind: "line", path: [[980, 230], [980, 440]], color: red, width: 8, draw: 0.7, from: 4.2 },
+          { kind: "line", path: [[1004, 230], [1004, 440]], color: red, width: 8, draw: 0.7, from: 4.4 },
+          { kind: "label", at: [992, 440], text: "双线：地名", side: "bottom", pos: [1010, 530], color: red, from: 4.8, to: 6.8 },
+          { kind: "myth", wrong: "古代的书从来不印停顿记号", right: "宋明刻书已有圈点，只是没问号等", from: 7.2 }
+        ]
+      },
+      {
+        turn: 4, title: "新式标点来帮忙", duration: 12,
+        cues: [
+          { kind: "text", at: [600, 120], text: "1920 年推行新式标点", from: 0.3 },
+          { kind: "count", at: [600, 280], label: "联名教授", start: 0, end: 6, unit: "位", over: 1.2, from: 1.2, to: 4.6 },
+          { kind: "shape", shape: "circle", at: [200, 450], size: [150, 150], color: "#ffe2b8", text: "，", motion: "grow", over: 0.6, from: 4.8 },
+          { kind: "shape", shape: "circle", at: [400, 450], size: [150, 150], color: "#f6d6d0", text: "。", motion: "grow", over: 0.6, from: 5.3 },
+          { kind: "shape", shape: "circle", at: [600, 450], size: [150, 150], color: "#dbe8ff", text: "？", motion: "grow", over: 0.6, from: 5.8 },
+          { kind: "shape", shape: "circle", at: [800, 450], size: [150, 150], color: "#d8f0d0", text: "！", motion: "grow", over: 0.6, from: 6.3 },
+          { kind: "shape", shape: "circle", at: [1000, 450], size: [150, 150], color: "#ece2ff", text: "“ ”", motion: "grow", over: 0.6, from: 6.8 },
+          { kind: "text", at: [600, 790], text: "看书再也不用猜在哪儿喘气！", from: 8.2 }
+        ]
+      }
+    ]
+  },
+  {
     question: "brush-slips",
     scenes: [
       {

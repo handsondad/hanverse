@@ -300,5 +300,78 @@ export const films: readonly Film[] = [
         ]
       }
     ]
+  },
+  {
+    question: "hand-elephant",
+    scenes: [
+      {
+        turn: 0, title: "一只手牵着大象", duration: 12,
+        cues: [
+          { kind: "sprite", icon: "🐘", path: [[280, 420]], size: 170, from: 0.3, to: 3.6 },
+          { kind: "glyph", char: "象", script: "oracle", at: [760, 420], size: 240, rotate: -90, turnTo: 0, over: 1.4, caption: "甲骨文的象", from: 0.8, to: 3.6 },
+          { kind: "glyph", char: "又", script: "oracle", at: [300, 260], size: 180, color: meaning, path: [[550, 290]], travel: 1.5, caption: "手：又", from: 3.8, to: 7.4 },
+          { kind: "glyph", char: "象", script: "oracle", at: [880, 500], size: 220, color: meaning, path: [[630, 500]], travel: 1.5, from: 4, to: 7.4 },
+          { kind: "glyph", char: "爲", script: "oracle", at: [600, 410], size: 320, caption: "甲骨文的为", from: 7.4 },
+          { kind: "text", at: [600, 110], text: "手 + 象 = 牵象干活", from: 8.2 },
+          { kind: "text", at: [600, 800], text: "事在人为的「为」", from: 9.4 }
+        ]
+      },
+      {
+        turn: 1, title: "三千年前的中原大象", duration: 12,
+        cues: [
+          { kind: "sprite", icon: "🌴", path: [[220, 380]], size: 140, from: 0.3, to: 6.4 },
+          { kind: "sprite", icon: "🐘", path: [[480, 420]], size: 190, from: 0.6, to: 6.4 },
+          { kind: "sprite", icon: "🔔", path: [[570, 470]], size: 75, wobble: true, from: 1.8, to: 6.4 },
+          { kind: "label", at: [570, 510], text: "殷墟小象戴着铜铃", side: "bottom", from: 2.2, to: 6.4 },
+          { kind: "text", at: [600, 110], text: "商朝黄河边暖和湿润", from: 2.8 },
+          { kind: "glyph", char: "豫", script: "kai", at: [600, 420], size: 300, caption: "河南简称：豫", from: 6.6 },
+          { kind: "highlight", at: [675, 420], size: [155, 250], color: red, from: 7.6 },
+          { kind: "label", at: [755, 420], text: "里面藏着一头象", side: "right", from: 8 },
+          { kind: "text", at: [600, 800], text: "商王还打猎抓过大象", from: 9.4 }
+        ]
+      },
+      {
+        turn: 2, title: "大象被误当成母猴", duration: 12,
+        cues: [
+          { kind: "glyph", char: "爲", script: "seal", at: [340, 350], size: 240, caption: "变了形的小篆", from: 0.4 },
+          { kind: "sprite", icon: "🐒", path: [[820, 350]], size: 150, wobble: true, from: 1.4, to: 5.6 },
+          { kind: "label", at: [820, 430], text: "许慎猜成了母猴", side: "bottom", from: 2, to: 5.6 },
+          { kind: "glyph", char: "爲", script: "oracle", at: [820, 350], size: 240, caption: "罗振玉认出大象", from: 5.8 },
+          { kind: "myth", wrong: "「为」本来画的是一只母猴", right: "甲骨文是一只手牵着大象干活", from: 6.4 },
+          { kind: "text", at: [600, 105], text: "甲骨文帮大象平了反", from: 7.2 }
+        ]
+      },
+      {
+        turn: 3, title: "从大象变成四画", duration: 12,
+        cues: [
+          { kind: "evolve", at: [600, 390], size: 300, every: 2.2, from: 0.4, forms: [{ script: "oracle", char: "爲" }, { script: "seal", char: "爲" }, { script: "song", char: "爲", label: "繁体" }, { script: "kai", char: "为", label: "简体" }] },
+          { kind: "text", at: [600, 110], text: "繁体笔画多，写起来慢", from: 2.6, to: 6.8 },
+          { kind: "sprite", icon: "🖌️", path: [[220, 320], [260, 500], [200, 600]], size: 90, travel: 1.6, from: 7, to: 9.2 },
+          { kind: "text", at: [600, 110], text: "草书连笔快写，定成简体", from: 7.2 },
+          { kind: "text", at: [600, 800], text: "一共只有四画", from: 9.4 }
+        ]
+      },
+      {
+        turn: 4, title: "四画小字装大象", duration: 10,
+        cues: [
+          { kind: "glyph", char: "为", script: "kai", at: [600, 380], size: 280, from: 0.4 },
+          { kind: "shape", shape: "pill", at: [260, 360], size: [250, 76], color: "#ff9f43", text: "事在人为", from: 1.4 },
+          { kind: "label", at: [260, 410], text: "靠人去做", side: "bottom", from: 2, to: 6.2 },
+          { kind: "shape", shape: "pill", at: [940, 360], size: [230, 76], color: "#ffc75a", text: "为什么", from: 3.4 },
+          { kind: "label", at: [940, 410], text: "为了什么缘故", side: "bottom", from: 4, to: 6.2 },
+          { kind: "sprite", icon: "🐘", path: [[600, 640]], size: 110, wobble: true, from: 6.4 },
+          { kind: "text", at: [600, 800], text: "四画小字里藏着大象", from: 7 }
+        ]
+      },
+      {
+        turn: 5, title: "四笔写出「为」", view: "grid", duration: 10,
+        cues: [
+          { kind: "write", char: "为", at: [600, 450], size: 640, stroke: 1.1, mark: [0], from: 0.5 },
+          { kind: "label", at: [520, 250], text: "第一笔点：牵象的手", side: "left", from: 1.6, to: 5.2 },
+          { kind: "label", at: [740, 560], text: "弯钩像象身和长鼻", side: "right", from: 5.4 },
+          { kind: "text", at: [600, 830], text: "点·撇·横折钩·点", size: "s", from: 6.4 }
+        ]
+      }
+    ]
   }
 ];

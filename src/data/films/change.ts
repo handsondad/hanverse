@@ -3,6 +3,8 @@ import type { Film } from "./types";
 const ink = "#4a3b2a";
 const red = "#d9453a";
 const bronze = "#d8b77a";
+const meaning = "#2f7d32";
+const sound = "#b48cff";
 
 export const films: readonly Film[] = [
   {
@@ -373,6 +375,74 @@ export const films: readonly Film[] = [
           { kind: "text", at: [600, 800], text: "跟着名字留了下来", from: 3 },
           { kind: "sprite", icon: "📖", path: [[1000, 640]], size: 120, from: 5.6 },
           { kind: "label", at: [1000, 640], text: "字典里查得到", side: "top", pos: [1000, 520], from: 6 }
+        ]
+      }
+    ]
+  },
+  {
+    question: "shoot-bow",
+    scenes: [
+      {
+        turn: 0, title: "古人写反了吗？", duration: 12,
+        cues: [
+          { kind: "shape", shape: "pill", at: [340, 290], size: [380, 110], color: "#ffe2b8", text: "身+寸=矮？", from: 0.4, to: 6.4 },
+          { kind: "shape", shape: "pill", at: [860, 290], size: [380, 110], color: "#dbe8ff", text: "矢+委=射？", from: 1.0, to: 6.4 },
+          { kind: "sprite", icon: "🤣", path: [[600, 490]], size: 120, wobble: true, from: 1.8, to: 6.4 },
+          { kind: "glyph", char: "射", at: [400, 330], size: 230, from: 6.6 },
+          { kind: "glyph", char: "矮", at: [800, 330], size: 230, from: 6.8 },
+          { kind: "myth", wrong: "古人把射和矮两个字写反了", right: "射是拉弓搭箭变走了样，没写反", from: 7.2 }
+        ]
+      },
+      {
+        turn: 1, title: "拉弓搭箭的「射」", duration: 13,
+        cues: [
+          { kind: "glyph", char: "弓", script: "oracle", at: [200, 380], size: 190, caption: "弓", path: [[370, 380]], travel: 1.4, from: 0.4, to: 5.2 },
+          { kind: "glyph", char: "矢", script: "oracle", at: [600, 190], size: 190, caption: "矢：箭", path: [[600, 380]], travel: 1.4, from: 0.9, to: 5.2 },
+          { kind: "glyph", char: "又", script: "oracle", at: [1000, 380], size: 190, caption: "又：手", path: [[830, 380]], travel: 1.4, from: 1.8, to: 5.2 },
+          { kind: "text", at: [600, 800], text: "弓搭着箭，右手去拉", from: 2.6, to: 5.2 },
+          { kind: "evolve", at: [600, 380], size: 300, every: 1.8, from: 5.4, forms: [{ icon: "🏹", label: "拉弓" }, { script: "oracle", char: "射" }, { script: "seal", char: "射" }, { script: "kai", char: "射" }] }
+        ]
+      },
+      {
+        turn: 2, title: "传抄走样的「身」", duration: 12,
+        cues: [
+          { kind: "glyph", char: "射", script: "oracle", at: [240, 340], size: 210, caption: "甲骨文的射", from: 0.4, to: 6.2 },
+          { kind: "glyph", char: "身", script: "oracle", at: [560, 340], size: 210, caption: "甲骨文的身", from: 1.0, to: 6.2 },
+          { kind: "arrow", path: [[700, 340], [830, 340]], text: "长得太像", from: 2.0, to: 6.2 },
+          { kind: "glyph", char: "射", script: "seal", at: [980, 340], size: 210, color: red, caption: "小篆写成身", from: 2.6, to: 6.2 },
+          { kind: "glyph", char: "射", at: [600, 380], size: 300, from: 6.4 },
+          { kind: "highlight", at: [520, 380], size: [130, 270], color: red, from: 7.0 },
+          { kind: "label", at: [520, 380], text: "弓箭误写成身", side: "left", color: red, from: 7.2 },
+          { kind: "highlight", at: [685, 380], size: [130, 270], color: meaning, from: 8.2 },
+          { kind: "label", at: [685, 380], text: "寸：拉弓的手", side: "right", color: meaning, from: 8.4 },
+          { kind: "text", at: [600, 800], text: "传话走样：文字「讹变」", from: 9.2 }
+        ]
+      },
+      {
+        turn: 3, title: "拿箭当尺子量", duration: 12,
+        cues: [
+          { kind: "glyph", char: "矢", script: "oracle", at: [240, 360], size: 220, color: meaning, caption: "矢：标准长度", from: 0.4 },
+          { kind: "sprite", icon: "📏", path: [[240, 640]], size: 110, from: 1.2, to: 6.0 },
+          { kind: "glyph", char: "短", script: "seal", at: [600, 360], size: 210, caption: "小篆的短", from: 2.6, to: 6.0 },
+          { kind: "glyph", char: "短", at: [600, 360], size: 230, caption: "长短的短", from: 6.2 },
+          { kind: "highlight", at: [535, 360], size: [110, 230], color: meaning, from: 6.8 },
+          { kind: "glyph", char: "矮", at: [950, 360], size: 230, caption: "高矮的矮", from: 4.2 },
+          { kind: "highlight", at: [885, 360], size: [110, 230], color: meaning, from: 7.4 },
+          { kind: "text", at: [600, 800], text: "左边的「矢」：量长短高矮", color: meaning, from: 8.2 }
+        ]
+      },
+      {
+        turn: 4, title: "低垂的「委」", duration: 12,
+        cues: [
+          { kind: "glyph", char: "委", script: "oracle", at: [280, 380], size: 230, color: sound, caption: "甲骨文的委", from: 0.4, to: 5.6 },
+          { kind: "glyph", char: "委", script: "seal", at: [600, 380], size: 220, color: sound, caption: "禾穗低垂", from: 1.4, to: 5.6 },
+          { kind: "sprite", icon: "🌾", path: [[900, 380]], size: 140, from: 2.2, to: 5.6 },
+          { kind: "glyph", char: "矮", at: [600, 400], size: 300, from: 5.8 },
+          { kind: "highlight", at: [515, 400], size: [120, 260], color: meaning, from: 6.6 },
+          { kind: "label", at: [515, 400], text: "矢：量高矮", side: "left", color: meaning, from: 6.8 },
+          { kind: "highlight", at: [675, 400], size: [150, 260], color: sound, from: 7.6 },
+          { kind: "label", at: [675, 400], text: "委：表音兼低垂", side: "right", color: sound, from: 7.8 },
+          { kind: "text", at: [600, 800], text: "和射箭一点关系也没有！", from: 8.8 }
         ]
       }
     ]

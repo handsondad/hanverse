@@ -83,6 +83,73 @@ export const films: readonly Film[] = [
     ]
   },
   {
+    question: "silkworm-swallow",
+    scenes: [
+      {
+        turn: 0, title: "宽宽扁扁的隶书", duration: 12,
+        cues: [
+          { kind: "image", src: "art/caoquan.jpg", at: [380, 430], size: [416, 490], caption: "东汉《曹全碑》", from: 0.3 },
+          { kind: "glyph", char: "隸", script: "seal", at: [880, 340], size: 190, caption: "小篆的隶", from: 1.8 },
+          { kind: "text", at: [880, 580], text: "公元 185 年立碑", from: 4 },
+          { kind: "text", at: [600, 815], text: "宽宽扁扁 · 像张开翅膀", from: 7 }
+        ]
+      },
+      {
+        turn: 1, title: "把小篆拉直拍扁", duration: 12,
+        cues: [
+          { kind: "glyph", char: "漢", script: "seal", at: [250, 410], size: 220, caption: "小篆：瘦长圆弯", from: 0.4 },
+          { kind: "shape", shape: "rect", at: [250, 400], size: [170, 310], color: "none", outline: true, from: 1.4 },
+          { kind: "arrow", path: [[380, 410], [640, 410]], text: "拉直拍扁", from: 3.2 },
+          { kind: "shape", shape: "rect", at: [880, 410], size: [340, 190], color: "#ffe2c4", outline: true, from: 4.6 },
+          { kind: "glyph", char: "汉", at: [880, 410], size: 190, caption: "干脆好写", from: 5.2 },
+          { kind: "text", at: [600, 800], text: "古文字到今天文字的大转弯", from: 7.8 }
+        ]
+      },
+      {
+        turn: 2, title: "一波三折：蚕头燕尾", duration: 13,
+        cues: [
+          { kind: "text", at: [600, 110], text: "一波三折", size: "l", from: 0.4 },
+          { kind: "line", path: [[220, 470], [280, 495], [580, 455], [860, 495], [990, 420]], color: ink, width: 24, draw: 1.8, from: 0.8 },
+          { kind: "shape", shape: "circle", at: [235, 480], size: [42, 42], color: ink, from: 0.9 },
+          { kind: "highlight", at: [250, 482], size: [120, 110], from: 2.8, to: 5 },
+          { kind: "label", at: [250, 482], text: "蚕头：圆圆顿笔", side: "top", from: 3.2 },
+          { kind: "highlight", at: [935, 455], size: [150, 130], color: blue, from: 5.2, to: 7.6 },
+          { kind: "label", at: [935, 455], text: "燕尾（雁尾）：往上挑", side: "top", from: 5.6 },
+          { kind: "glyph", char: "燕", script: "oracle", at: [600, 690], size: 150, caption: "甲骨文的燕", from: 7.8 }
+        ]
+      },
+      {
+        turn: 3, title: "老规矩：雁不双飞", duration: 12,
+        cues: [
+          { kind: "text", at: [600, 105], text: "雁不双飞（燕不双飞）", size: "l", from: 0.4 },
+          { kind: "line", path: [[400, 250], [800, 245]], color: ink, width: 16, draw: 0.7, from: 1 },
+          { kind: "line", path: [[430, 365], [770, 360]], color: ink, width: 16, draw: 0.7, from: 2 },
+          { kind: "label", at: [770, 360], text: "别的横老实收住", side: "right", from: 2.8, to: 7.2 },
+          { kind: "line", path: [[270, 495], [330, 515], [600, 480], [840, 515], [950, 445]], color: "#d9453a", width: 22, draw: 1.2, from: 4 },
+          { kind: "label", at: [950, 445], text: "只亮一条大尾巴", side: "top", from: 5.4 },
+          { kind: "myth", wrong: "每一笔横都要挑出燕尾", right: "雁不双飞：一字只亮一条大尾巴", from: 7.4 }
+        ]
+      },
+      {
+        turn: 4, title: "完好如初的《曹全碑》", duration: 13,
+        camera: [
+          { t: 0, at: [600, 450], zoom: 1 },
+          { t: 4.8, at: [600, 450], zoom: 1 },
+          { t: 6.4, at: [660, 370], zoom: 1.9 },
+          { t: 10.2, at: [660, 370], zoom: 1.9 },
+          { t: 11.6, at: [600, 450], zoom: 1 }
+        ],
+        cues: [
+          { kind: "image", src: "art/caoquan.jpg", at: [600, 430], size: [459, 540], caption: "西安碑林博物馆藏", from: 0.2 },
+          { kind: "count", at: [190, 360], label: "立碑至今", start: 0, end: 1800, unit: "多年", from: 0.8, to: 4.8 },
+          { kind: "highlight", at: [775, 360], size: [85, 300], from: 6.6, to: 10.2 },
+          { kind: "label", at: [775, 240], text: "字迹完好秀美", side: "left", from: 7, to: 10.2 },
+          { kind: "text", at: [600, 820], text: "沙土保护 · 明朝在陕西出土", from: 10.4 }
+        ]
+      }
+    ]
+  },
+  {
     question: "yan-liu",
     scenes: [
       {

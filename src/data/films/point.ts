@@ -255,6 +255,75 @@ export const films: readonly Film[] = [
     ]
   },
   {
+    question: "sunrise-dan",
+    scenes: [
+      {
+        turn: 0, title: "太阳升起就是「旦」", duration: 12,
+        cues: [
+          { kind: "line", path: [[180, 520], [540, 520]], color: ink, width: 12, draw: 0.7, from: 0.3, to: 5.6 },
+          { kind: "sprite", icon: "☀️", path: [[360, 620], [360, 390]], size: 150, travel: 1.8, from: 0.8, to: 5.6 },
+          { kind: "label", at: [480, 520], text: "一横代表大地", side: "bottom", from: 2.6, to: 5.6 },
+          { kind: "evolve", at: [860, 390], size: 280, every: 1.8, from: 3.6, forms: [{ script: "oracle", char: "旦" }, { script: "seal", char: "旦" }, { script: "kai", char: "旦" }] },
+          { kind: "glyph", char: "元", script: "oracle", at: [240, 390], size: 180, caption: "元：第一", from: 6 },
+          { kind: "glyph", char: "旦", script: "kai", at: [480, 390], size: 180, caption: "旦：早晨", from: 6.6 },
+          { kind: "text", at: [600, 800], text: "元旦：一年的第一个早晨", from: 8.4 }
+        ]
+      },
+      {
+        turn: 1, title: "甲骨文的「旦」什么样", duration: 12,
+        cues: [
+          { kind: "glyph", char: "旦", script: "oracle", at: [340, 400], size: 280, caption: "甲骨文的旦", from: 0.4 },
+          { kind: "highlight", at: [340, 470], size: [160, 120], color: red, from: 1.6, to: 6.2 },
+          { kind: "label", at: [420, 470], text: "大地、云气？还是丁？", side: "right", from: 2.2, to: 6.2 },
+          { kind: "text", at: [600, 110], text: "学者们的解释不一样", from: 3.6 },
+          { kind: "arrow", path: [[520, 400], [680, 400]], text: "秦朝小篆", from: 6.4 },
+          { kind: "glyph", char: "旦", script: "seal", at: [860, 400], size: 280, caption: "统一写成一横", from: 7 },
+          { kind: "text", at: [600, 800], text: "小篆写成干净的一横", from: 9 }
+        ]
+      },
+      {
+        turn: 2, title: "人站在地上就是「立」", duration: 12,
+        cues: [
+          { kind: "glyph", char: "大", script: "oracle", at: [260, 390], size: 240, caption: "大：正面的人", from: 0.4 },
+          { kind: "line", path: [[160, 500], [360, 500]], color: red, width: 12, draw: 0.6, from: 1.8, to: 5.2 },
+          { kind: "glyph", char: "立", script: "oracle", at: [600, 390], size: 250, caption: "甲骨文的立", from: 3.8 },
+          { kind: "glyph", char: "立", script: "kai", at: [940, 390], size: 250, caption: "今天的立", from: 6.6 },
+          { kind: "highlight", at: [940, 485], size: [220, 70], color: red, from: 7.4 },
+          { kind: "text", at: [600, 800], text: "人稳稳站在地面上 = 立", from: 8.6 }
+        ]
+      },
+      {
+        turn: 3, title: "一横搬家：立、天、夫", duration: 13,
+        cues: [
+          { kind: "glyph", char: "立", script: "oracle", at: [260, 410], size: 220, caption: "脚踩地面", from: 0.4, to: 5.4 },
+          { kind: "glyph", char: "天", script: "oracle", at: [600, 410], size: 220, caption: "头顶大脑袋", from: 1.4, to: 5.4 },
+          { kind: "glyph", char: "夫", script: "oracle", at: [940, 410], size: 220, caption: "成年插发簪", from: 2.4, to: 5.4 },
+          { kind: "text", at: [600, 110], text: "甲骨文里的三兄弟", from: 3.2, to: 5.4 },
+          { kind: "glyph", char: "立", script: "kai", at: [260, 410], size: 240, caption: "脚下一横", from: 5.6 },
+          { kind: "highlight", at: [260, 500], size: [210, 60], color: red, from: 5.8 },
+          { kind: "glyph", char: "天", script: "kai", at: [600, 410], size: 240, caption: "头顶一横", from: 7 },
+          { kind: "highlight", at: [600, 315], size: [190, 60], color: red, from: 7.2 },
+          { kind: "glyph", char: "夫", script: "kai", at: [940, 410], size: 240, caption: "插根发簪", from: 8.4 },
+          { kind: "highlight", at: [940, 355], size: [190, 60], color: red, from: 8.6 },
+          { kind: "text", at: [600, 800], text: "一横挪位置，变出三个字", from: 9.8 }
+        ]
+      },
+      {
+        turn: 4, title: "瘦长「日」和扁宽「曰」", duration: 12,
+        cues: [
+          { kind: "glyph", char: "口", script: "oracle", at: [340, 460], size: 200, caption: "嘴巴：口", from: 0.4, to: 5.4 },
+          { kind: "line", path: [[290, 330], [340, 305], [390, 330]], color: red, width: 10, draw: 0.6, from: 1.2, to: 5.4 },
+          { kind: "flow", path: [[340, 300], [340, 180]], icon: "💨", count: 3, from: 1.8, to: 5.4 },
+          { kind: "glyph", char: "曰", script: "oracle", at: [800, 420], size: 250, caption: "甲骨文的曰", from: 2.6, to: 5.4 },
+          { kind: "glyph", char: "日", script: "kai", at: [360, 380], size: 250, caption: "日：瘦瘦长长", from: 5.6 },
+          { kind: "glyph", char: "曰", script: "kai", at: [840, 380], size: 250, caption: "曰：扁扁宽宽", from: 6.2 },
+          { kind: "myth", wrong: "「日」和「曰」写得差不多", right: "太阳「日」瘦长，说话「曰」扁宽", from: 7.2 },
+          { kind: "text", at: [600, 110], text: "子曰 = 夫子说", from: 7.8 }
+        ]
+      }
+    ]
+  },
+  {
     question: "inch-pulse",
     scenes: [
       {

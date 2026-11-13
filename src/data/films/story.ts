@@ -350,5 +350,66 @@ export const films: readonly Film[] = [
         ]
       }
     ]
+  },
+  {
+    question: "china-hezun",
+    scenes: [
+      {
+        turn: 0, title: "西周青铜器：何尊", duration: 12,
+        cues: [
+          { kind: "image", src: "art/hezun.jpg", at: [380, 440], size: [340, 510], caption: "西周早期何尊", from: 0.3 },
+          { kind: "glyph", char: "尊", script: "oracle", at: [860, 390], size: 230, caption: "甲骨文的尊", from: 2 },
+          { kind: "text", at: [600, 100], text: "三千多年前 · 西周何尊", size: "l", from: 4.5 },
+          { kind: "text", at: [860, 680], text: "最早的「中国」在这里", from: 7.4 }
+        ]
+      },
+      {
+        turn: 1, title: "尊底藏着 122 个字", duration: 13,
+        cues: [
+          { kind: "text", at: [350, 200], text: "1963 年宝鸡出土", from: 0.4 },
+          { kind: "sprite", icon: "🏺", path: [[350, 370]], size: 130, from: 1.4 },
+          { kind: "label", at: [350, 370], text: "30 块钱从废品站买回", side: "bottom", from: 2.2 },
+          { kind: "count", at: [350, 660], label: "尊底铭文", start: 0, end: 122, unit: "个字", from: 4.8 },
+          { kind: "image", src: "art/hezun-ming.jpg", at: [840, 440], size: [440, 440], caption: "何尊内底铭文", from: 5.6 }
+        ]
+      },
+      {
+        turn: 2, title: "宅兹中国：天下中心", duration: 13,
+        camera: [
+          { t: 0, at: [600, 450], zoom: 1 },
+          { t: 2, at: [575, 300], zoom: 1.9 },
+          { t: 8.2, at: [575, 300], zoom: 1.9 },
+          { t: 9.6, at: [600, 450], zoom: 1 }
+        ],
+        cues: [
+          { kind: "image", src: "art/hezun-ming.jpg", at: [600, 430], size: [560, 560], from: 0.2 },
+          { kind: "highlight", at: [575, 279], size: [95, 270], color: red, from: 2.4, to: 8.4 },
+          { kind: "label", at: [622, 279], text: "宅兹中国", side: "right", from: 2.8, to: 8.4 },
+          { kind: "text", at: [600, 810], text: "住在天下的中心", from: 4.6, to: 8.4 },
+          { kind: "myth", wrong: "当时就是今天的国家名字", right: "当时指洛阳一带的天下中心", from: 9.2 }
+        ]
+      },
+      {
+        turn: 3, title: "中：正中央的大旗", duration: 12,
+        cues: [
+          { kind: "sprite", icon: "🚩", path: [[250, 400]], size: 150, wobble: true, from: 0.4 },
+          { kind: "label", at: [250, 400], text: "营地正中央插旗", side: "bottom", from: 1.2 },
+          { kind: "evolve", at: [740, 380], size: 280, every: 1.8, from: 2.4, forms: [{ script: "oracle", char: "中" }, { script: "seal", char: "中" }, { script: "kai", char: "中" }] },
+          { kind: "highlight", at: [740, 260], size: [200, 90], color: red, from: 3, to: 4.2 },
+          { kind: "text", at: [600, 800], text: "上下飘着旗带 → 正中间", from: 8 }
+        ]
+      },
+      {
+        turn: 4, title: "从「或」到「国」", duration: 13,
+        cues: [
+          { kind: "glyph", char: "口", script: "oracle", at: [220, 420], size: 180, color: green, caption: "口：城池", path: [[490, 420]], travel: 1.3, from: 0.4, to: 4.4 },
+          { kind: "glyph", char: "戈", script: "oracle", at: [980, 420], size: 200, color: red, caption: "戈：武器", path: [[710, 420]], travel: 1.3, from: 0.8, to: 4.4 },
+          { kind: "glyph", char: "或", script: "oracle", at: [210, 410], size: 220, caption: "或：持戈守城", from: 4.4 },
+          { kind: "glyph", char: "國", script: "seal", at: [550, 410], size: 220, caption: "外加城墙", from: 6.4 },
+          { kind: "write", char: "国", at: [920, 410], size: 320, grid: true, stroke: 0.4, mark: [2, 3, 4, 5, 6], from: 8.2 },
+          { kind: "text", at: [600, 810], text: "简体「国」：大框里放一块玉", from: 10.6 }
+        ]
+      }
+    ]
   }
 ];

@@ -421,5 +421,73 @@ export const films: readonly Film[] = [
         ]
       }
     ]
+  },
+  {
+    question: "foot-steps",
+    scenes: [
+      {
+        turn: 0, title: "「止」本来是一只脚", duration: 12,
+        cues: [
+          { kind: "sprite", icon: "🚧", path: [[320, 340]], size: 130, from: 0.3, to: 4.8 },
+          { kind: "sprite", icon: "🦶", path: [[880, 340]], size: 140, from: 0.8, to: 4.8 },
+          { kind: "myth", wrong: "「止」本来画的是拦路栏杆", right: "「止」本来画的是一只脚掌", from: 1.2, to: 4.8 },
+          { kind: "evolve", at: [600, 390], size: 290, every: 1.5, from: 5, forms: [{ icon: "🦶", label: "脚掌" }, { script: "oracle", char: "止" }, { script: "seal", char: "止" }, { script: "kai", char: "止" }] },
+          { kind: "label", at: [650, 290], text: "上面翘着脚趾头", side: "right", from: 6.6 },
+          { kind: "text", at: [600, 810], text: "「止」最早就是脚", from: 9.8 }
+        ]
+      },
+      {
+        turn: 1, title: "站住不动，另造「趾」", duration: 12,
+        cues: [
+          { kind: "sprite", icon: "🚶", path: [[200, 400], [430, 400]], size: 130, travel: 1.6, from: 0.4, to: 5.6 },
+          { kind: "glyph", char: "止", script: "oracle", at: [740, 400], size: 240, caption: "脚站住 = 停", from: 2.2, to: 5.6 },
+          { kind: "text", at: [600, 110], text: "脚站住不动，就是停下来", from: 2.8, to: 5.6 },
+          { kind: "glyph", char: "足", script: "seal", at: [260, 420], size: 200, color: "#2f7d32", path: [[490, 420]], travel: 1.4, from: 5.8, to: 9 },
+          { kind: "glyph", char: "止", script: "seal", at: [940, 420], size: 200, path: [[710, 420]], travel: 1.4, from: 6, to: 9 },
+          { kind: "glyph", char: "趾", script: "kai", at: [600, 420], size: 300, caption: "新造的脚趾", motion: "pulse", from: 9 },
+          { kind: "text", at: [600, 800], text: "加足字旁，新造了「趾」", from: 9.6 }
+        ]
+      },
+      {
+        turn: 2, title: "两只脚迈出「步」", duration: 13,
+        cues: [
+          { kind: "glyph", char: "止", script: "oracle", at: [320, 540], size: 150, path: [[320, 290]], travel: 1.3, from: 0.4, to: 3.6 },
+          { kind: "glyph", char: "止", script: "oracle", at: [480, 630], size: 150, path: [[480, 480]], travel: 1.3, from: 0.9, to: 3.6 },
+          { kind: "glyph", char: "步", script: "oracle", at: [340, 350], size: 240, caption: "甲骨文的步", from: 3.6 },
+          { kind: "write", char: "步", at: [820, 350], size: 360, stroke: 0.55, mark: [4, 5, 6], grid: true, from: 4.4 },
+          { kind: "myth", wrong: "「步」下面是「少」字", right: "比「少」少一点，是后面的脚", from: 8.6 },
+          { kind: "text", at: [600, 95], text: "两只脚一前一后 = 步", from: 9 }
+        ]
+      },
+      {
+        turn: 3, title: "踩着河水过河：涉", duration: 12,
+        cues: [
+          { kind: "flow", path: [[200, 430], [470, 390], [730, 450], [1000, 410]], color: water, count: 9, from: 0.3, to: 5.6 },
+          { kind: "glyph", char: "止", script: "oracle", at: [600, 640], size: 150, path: [[600, 540]], travel: 1.2, from: 0.8, to: 5.6 },
+          { kind: "glyph", char: "止", script: "oracle", at: [600, 310], size: 150, path: [[600, 250]], travel: 1, from: 1.6, to: 5.6 },
+          { kind: "text", at: [600, 100], text: "两只脚蹚着河水走", from: 2.4, to: 5.6 },
+          { kind: "glyph", char: "涉", script: "oracle", at: [360, 420], size: 270, caption: "甲骨文的涉", from: 5.8 },
+          { kind: "arrow", path: [[530, 420], [670, 420]], from: 7 },
+          { kind: "glyph", char: "涉", script: "kai", at: [850, 420], size: 270, caption: "左边三点水", from: 7.6 },
+          { kind: "highlight", at: [775, 420], size: [100, 230], color: water, from: 8.6 },
+          { kind: "text", at: [600, 800], text: "跋山涉水的「涉」", from: 9.4 }
+        ]
+      },
+      {
+        turn: 4, title: "出、走、十字大路「行」", duration: 13,
+        cues: [
+          { kind: "line", path: [[220, 420], [220, 560], [420, 560], [420, 420]], color: crack, width: 12, draw: 0.6, from: 0.3, to: 3.4 },
+          { kind: "glyph", char: "止", script: "oracle", at: [320, 490], size: 140, path: [[320, 300]], travel: 1.4, from: 0.8, to: 3.4 },
+          { kind: "glyph", char: "出", script: "oracle", at: [320, 420], size: 240, caption: "出：迈出洞口", from: 3.4, to: 6.4 },
+          { kind: "glyph", char: "走", script: "oracle", at: [860, 420], size: 240, caption: "走：甩臂奔跑", from: 3.8, to: 6.4 },
+          { kind: "text", at: [600, 110], text: "底下都藏着一只脚", from: 4.2, to: 6.4 },
+          { kind: "line", path: [[160, 420], [460, 420]], color: "#c99a6b", width: 26, draw: 0.5, from: 6.6, to: 10 },
+          { kind: "line", path: [[310, 260], [310, 580]], color: "#c99a6b", width: 26, draw: 0.5, from: 7, to: 10 },
+          { kind: "glyph", char: "行", script: "oracle", at: [650, 420], size: 250, caption: "行：十字大路", from: 7.6 },
+          { kind: "glyph", char: "彳", script: "oracle", at: [980, 420], size: 220, color: red, caption: "左半边双人旁", from: 9.6 },
+          { kind: "text", at: [600, 800], text: "四通八达的大路 = 行", from: 10.2 }
+        ]
+      }
+    ]
   }
 ];

@@ -372,5 +372,85 @@ export const films: readonly Film[] = [
         ]
       }
     ]
+  },
+  {
+    question: "foreign-words",
+    scenes: [
+      {
+        turn: 0, title: "借声音写外来词", duration: 12,
+        cues: [
+          { kind: "sprite", icon: "🛋️", path: [[240, 310]], size: 130, from: 0.3, to: 5.2 },
+          { kind: "glyph", char: "沙", at: [170, 530], size: 130, color: sound, from: 0.6, to: 5.2 },
+          { kind: "glyph", char: "发", at: [340, 530], size: 130, color: sound, from: 0.8, to: 5.2 },
+          { kind: "sprite", icon: "🍇", path: [[620, 360]], size: 140, from: 1.2, to: 5.2 },
+          { kind: "sprite", icon: "🍫", path: [[950, 360]], size: 140, from: 1.6, to: 5.2 },
+          { kind: "text", at: [600, 110], text: "借读音相近的字记声音", color: sound, from: 2.0, to: 5.2 },
+          { kind: "sprite", icon: "☕", path: [[210, 400]], size: 150, from: 5.4 },
+          { kind: "glyph", char: "咖", at: [550, 400], size: 230, from: 5.8 },
+          { kind: "glyph", char: "啡", at: [890, 400], size: 230, from: 6.2 },
+          { kind: "highlight", at: [480, 400], size: [95, 210], color: meaning, from: 7.0, to: 9.2 },
+          { kind: "highlight", at: [820, 400], size: [95, 210], color: meaning, from: 7.2, to: 9.2 },
+          { kind: "highlight", at: [605, 400], size: [135, 210], color: sound, from: 9.4 },
+          { kind: "highlight", at: [945, 400], size: [135, 210], color: sound, from: 9.6 },
+          { kind: "text", at: [600, 800], text: "口字旁：嘴里喝的东西", color: meaning, from: 7.6 }
+        ]
+      },
+      {
+        turn: 1, title: "西域传来的葡萄", duration: 12,
+        cues: [
+          { kind: "text", at: [600, 110], text: "两千多年前 · 西汉通西域", from: 0.3, to: 5.8 },
+          { kind: "sprite", icon: "🍇", path: [[210, 410]], size: 150, from: 0.6 },
+          { kind: "glyph", char: "蒲", script: "seal", at: [540, 400], size: 220, color: sound, caption: "先借声音", from: 1.4, to: 5.8 },
+          { kind: "glyph", char: "萄", script: "seal", at: [870, 400], size: 220, color: sound, caption: "小篆字形", from: 2.0, to: 5.8 },
+          { kind: "glyph", char: "葡", at: [540, 420], size: 240, from: 6.0 },
+          { kind: "glyph", char: "萄", at: [870, 420], size: 240, from: 6.4 },
+          { kind: "highlight", at: [540, 325], size: [220, 85], color: meaning, from: 7.4 },
+          { kind: "highlight", at: [870, 325], size: [220, 85], color: meaning, from: 7.6 },
+          { kind: "text", at: [600, 800], text: "戴上草字头：长藤植物", color: meaning, from: 8.2 }
+        ]
+      },
+      {
+        turn: 2, title: "专门新造的「塔」", duration: 12,
+        cues: [
+          { kind: "text", at: [600, 110], text: "佛塔早先按音译作「浮屠」", from: 0.3, to: 4.8 },
+          { kind: "sprite", icon: "🛕", path: [[260, 410]], size: 170, from: 0.6, to: 4.8 },
+          { kind: "shape", shape: "pill", at: [760, 410], size: [320, 110], color: "#ece2ff", text: "浮屠", from: 1.6, to: 4.8 },
+          { kind: "glyph", char: "土", script: "oracle", at: [260, 400], size: 210, color: meaning, caption: "泥土建筑", from: 5.0, to: 8.2 },
+          { kind: "arrow", path: [[430, 400], [600, 400]], text: "配上读音", from: 5.6, to: 8.2 },
+          { kind: "glyph", char: "塔", script: "seal", at: [830, 400], size: 240, caption: "新造形声字", from: 6.2, to: 8.2 },
+          { kind: "glyph", char: "塔", at: [600, 390], size: 300, motion: "pulse", from: 8.4 },
+          { kind: "highlight", at: [510, 390], size: [110, 260], color: meaning, from: 9.0 },
+          { kind: "highlight", at: [665, 390], size: [170, 260], color: sound, from: 9.4 },
+          { kind: "text", at: [600, 800], text: "土字旁表建筑，右边表读音", from: 9.6 }
+        ]
+      },
+      {
+        turn: 3, title: "德律风变成电话", duration: 12,
+        cues: [
+          { kind: "sprite", icon: "☎️", path: [[200, 330]], size: 140, from: 0.4 },
+          { kind: "shape", shape: "pill", at: [600, 330], size: [340, 110], color: "#ece2ff", text: "德律风", from: 1.0, to: 5.0 },
+          { kind: "sprite", icon: "❓", path: [[940, 330]], size: 100, wobble: true, from: 1.8, to: 5.0 },
+          { kind: "text", at: [600, 110], text: "早年按声音译：猜不出意思", from: 2.2, to: 5.0 },
+          { kind: "glyph", char: "電", script: "seal", at: [460, 330], size: 180, color: meaning, caption: "小篆的电", from: 5.2 },
+          { kind: "glyph", char: "电", at: [730, 330], size: 190, color: meaning, from: 5.8 },
+          { kind: "glyph", char: "话", at: [970, 330], size: 190, color: meaning, from: 6.2 },
+          { kind: "myth", wrong: "电话一直都叫「电话」", right: "早年曾音译「德律风」，后改意译", from: 7.4 }
+        ]
+      },
+      {
+        turn: 4, title: "一半意思一半声音", duration: 12,
+        cues: [
+          { kind: "sprite", icon: "🍦", path: [[600, 190]], size: 130, from: 0.3, to: 4.8 },
+          { kind: "glyph", char: "冰", script: "seal", at: [240, 420], size: 190, color: meaning, caption: "讲意思", path: [[380, 420]], travel: 1.3, from: 0.8, to: 4.8 },
+          { kind: "shape", shape: "pill", at: [860, 420], size: [280, 105], color: "#ece2ff", text: "淇淋", from: 1.4, to: 4.8 },
+          { kind: "glyph", char: "冰", at: [320, 370], size: 200, color: meaning, caption: "意思：冰凉", from: 5.0 },
+          { kind: "glyph", char: "淇", at: [600, 370], size: 200, color: sound, from: 5.4 },
+          { kind: "glyph", char: "淋", at: [880, 370], size: 200, color: sound, caption: "借音：cream", from: 5.8 },
+          { kind: "shape", shape: "pill", at: [360, 640], size: [260, 90], color: "#ffe2b8", text: "芭蕾舞", from: 7.4 },
+          { kind: "shape", shape: "pill", at: [840, 640], size: [260, 90], color: "#d8f0d0", text: "迷你裙", from: 8.0 },
+          { kind: "text", at: [600, 810], text: "留住声音，又一看就懂", from: 8.8 }
+        ]
+      }
+    ]
   }
 ];

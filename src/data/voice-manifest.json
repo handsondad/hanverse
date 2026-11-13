@@ -378,6 +378,102 @@
    "hash": "6634c2a966d8",
    "seconds": 9.38
   },
+  "china-hezun/0-dad": {
+   "hash": "c085cbfa2055",
+   "seconds": 13.03
+  },
+  "china-hezun/0-nian": {
+   "hash": "57a5fd86c5e0",
+   "seconds": 5.4
+  },
+  "china-hezun/1-dad": {
+   "hash": "a6da1e82d599",
+   "seconds": 26.21
+  },
+  "china-hezun/1-nian": {
+   "hash": "c581d6f1384d",
+   "seconds": 5.54
+  },
+  "china-hezun/2-dad": {
+   "hash": "6d1eb15e9d05",
+   "seconds": 25.1
+  },
+  "china-hezun/2-nian": {
+   "hash": "3ccb9341b7a3",
+   "seconds": 5.71
+  },
+  "china-hezun/3-dad": {
+   "hash": "ced406a77c70",
+   "seconds": 18.84
+  },
+  "china-hezun/3-nian": {
+   "hash": "462968847659",
+   "seconds": 6.74
+  },
+  "china-hezun/4-dad": {
+   "hash": "3e4f98defaf1",
+   "seconds": 26.74
+  },
+  "china-hezun/4-nian": {
+   "hash": "9b94784afc3d",
+   "seconds": 7.75
+  },
+  "china-hezun/5-dad": {
+   "hash": "cb19406d8cea",
+   "seconds": 13.3
+  },
+  "china-hezun/5-nian": {
+   "hash": "eb3cbb319001",
+   "seconds": 15.6
+  },
+  "decode-oracle/0-dad": {
+   "hash": "99b58bf1056e",
+   "seconds": 26.59
+  },
+  "decode-oracle/0-nian": {
+   "hash": "b5de09869f09",
+   "seconds": 10.99
+  },
+  "decode-oracle/1-dad": {
+   "hash": "491e2473be8b",
+   "seconds": 26.3
+  },
+  "decode-oracle/1-nian": {
+   "hash": "052678573c6a",
+   "seconds": 3.26
+  },
+  "decode-oracle/2-dad": {
+   "hash": "56ec22611d0e",
+   "seconds": 27.05
+  },
+  "decode-oracle/2-nian": {
+   "hash": "0ed760df5ece",
+   "seconds": 5.16
+  },
+  "decode-oracle/3-dad": {
+   "hash": "2c261a9ee705",
+   "seconds": 25.92
+  },
+  "decode-oracle/3-nian": {
+   "hash": "0cfa9a6cf469",
+   "seconds": 7.78
+  },
+  "decode-oracle/4-dad": {
+   "hash": "021774896105",
+   "seconds": 23.4
+  },
+  "decode-oracle/4-nian": {
+   "hash": "facc3e23bbea",
+   "seconds": 5.35
+  },
+  "decode-oracle/5-dad": {
+   "hash": "392a6301060a",
+   "seconds": 14.04
+  },
+  "decode-oracle/5-nian": {
+   "hash": "fca254c0715b",
+   "seconds": 13.78
+  },
   "dog-nose/0-dad": {
    "hash": "0486b8fa2f3a",
    "seconds": 17.23
@@ -602,6 +698,102 @@
    "hash": "963820d67009",
    "seconds": 9.53
   },
+  "foot-steps/0-dad": {
+   "hash": "faed04f2d413",
+   "seconds": 18.77
+  },
+  "foot-steps/0-nian": {
+   "hash": "cc03cd6c2564",
+   "seconds": 8.86
+  },
+  "foot-steps/1-dad": {
+   "hash": "f4fe2c104fa4",
+   "seconds": 25.01
+  },
+  "foot-steps/1-nian": {
+   "hash": "ffcc926f0769",
+   "seconds": 4.92
+  },
+  "foot-steps/2-dad": {
+   "hash": "544c6c9d0dda",
+   "seconds": 18.19
+  },
+  "foot-steps/2-nian": {
+   "hash": "1b99b5d99da5",
+   "seconds": 5.28
+  },
+  "foot-steps/3-dad": {
+   "hash": "4e18d47ca36f",
+   "seconds": 20.4
+  },
+  "foot-steps/3-nian": {
+   "hash": "6f1ade303fa9",
+   "seconds": 6.24
+  },
+  "foot-steps/4-dad": {
+   "hash": "33e088d54c55",
+   "seconds": 21.6
+  },
+  "foot-steps/4-nian": {
+   "hash": "0be5a039a9bc",
+   "seconds": 6.43
+  },
+  "foot-steps/5-dad": {
+   "hash": "f1c7d9d82150",
+   "seconds": 11.38
+  },
+  "foot-steps/5-nian": {
+   "hash": "4539bf3bc539",
+   "seconds": 10.99
+  },
+  "foreign-words/0-dad": {
+   "hash": "f53660633e67",
+   "seconds": 21.02
+  },
+  "foreign-words/0-nian": {
+   "hash": "9dcbe94f7331",
+   "seconds": 8.3
+  },
+  "foreign-words/1-dad": {
+   "hash": "44912b7a7fab",
+   "seconds": 29.11
+  },
+  "foreign-words/1-nian": {
+   "hash": "3cc5f01aaa4e",
+   "seconds": 6.72
+  },
+  "foreign-words/2-dad": {
+   "hash": "1bceb0d7594c",
+   "seconds": 26.54
+  },
+  "foreign-words/2-nian": {
+   "hash": "6b495ddc9fca",
+   "seconds": 8.78
+  },
+  "foreign-words/3-dad": {
+   "hash": "a7c03700a0a6",
+   "seconds": 22.3
+  },
+  "foreign-words/3-nian": {
+   "hash": "ae0b22259c26",
+   "seconds": 8.76
+  },
+  "foreign-words/4-dad": {
+   "hash": "e339d7ce5d3c",
+   "seconds": 21.38
+  },
+  "foreign-words/4-nian": {
+   "hash": "26d8a021d330",
+   "seconds": 9.53
+  },
+  "foreign-words/5-dad": {
+   "hash": "b3e43352dd9c",
+   "seconds": 16.42
+  },
+  "foreign-words/5-nian": {
+   "hash": "6473d5457374",
+   "seconds": 16.58
+  },
   "four-lines/0-dad": {
    "hash": "b0856b557717",
    "seconds": 15.58
@@ -649,6 +841,54 @@
   "four-lines/5-nian": {
    "hash": "922f6dac62bb",
    "seconds": 12.89
+  },
+  "hand-elephant/0-dad": {
+   "hash": "c51f07752199",
+   "seconds": 17.21
+  },
+  "hand-elephant/0-nian": {
+   "hash": "4ebd84f3c8be",
+   "seconds": 9.07
+  },
+  "hand-elephant/1-dad": {
+   "hash": "9892ba3acc71",
+   "seconds": 24.7
+  },
+  "hand-elephant/1-nian": {
+   "hash": "5f0526bab7b4",
+   "seconds": 5.95
+  },
+  "hand-elephant/2-dad": {
+   "hash": "4d0cdaaa0101",
+   "seconds": 26.86
+  },
+  "hand-elephant/2-nian": {
+   "hash": "a27d1bc9b79d",
+   "seconds": 7.99
+  },
+  "hand-elephant/3-dad": {
+   "hash": "028c0b8026a3",
+   "seconds": 22.1
+  },
+  "hand-elephant/3-nian": {
+   "hash": "3b658ead3f9d",
+   "seconds": 8.11
+  },
+  "hand-elephant/4-dad": {
+   "hash": "c9385b47393f",
+   "seconds": 20.66
+  },
+  "hand-elephant/4-nian": {
+   "hash": "58099d738a24",
+   "seconds": 9.14
+  },
+  "hand-elephant/5-dad": {
+   "hash": "25769a1543c5",
+   "seconds": 15.22
+  },
+  "hand-elephant/5-nian": {
+   "hash": "0cc3bcabe738",
+   "seconds": 12.65
   },
   "hand-eye/0-dad": {
    "hash": "93f36e05445a",
@@ -969,6 +1209,54 @@
   "lanting-zhi/5-nian": {
    "hash": "557bc5d91c19",
    "seconds": 10.22
+  },
+  "lookalike-twins/0-dad": {
+   "hash": "05897b4af404",
+   "seconds": 21.07
+  },
+  "lookalike-twins/0-nian": {
+   "hash": "fa084a542357",
+   "seconds": 9.65
+  },
+  "lookalike-twins/1-dad": {
+   "hash": "9d12427d38e0",
+   "seconds": 19.25
+  },
+  "lookalike-twins/1-nian": {
+   "hash": "3e32c46fea39",
+   "seconds": 6.26
+  },
+  "lookalike-twins/2-dad": {
+   "hash": "617dfba5f41a",
+   "seconds": 19.99
+  },
+  "lookalike-twins/2-nian": {
+   "hash": "d6545f1c129b",
+   "seconds": 6.05
+  },
+  "lookalike-twins/3-dad": {
+   "hash": "fcd8d1fdba81",
+   "seconds": 21.55
+  },
+  "lookalike-twins/3-nian": {
+   "hash": "618872651a39",
+   "seconds": 5.93
+  },
+  "lookalike-twins/4-dad": {
+   "hash": "54ef2d694dbf",
+   "seconds": 18.5
+  },
+  "lookalike-twins/4-nian": {
+   "hash": "c97278b3bf84",
+   "seconds": 7.03
+  },
+  "lookalike-twins/5-dad": {
+   "hash": "f1c55f784460",
+   "seconds": 14.26
+  },
+  "lookalike-twins/5-nian": {
+   "hash": "7bc2168f73c7",
+   "seconds": 15.14
   },
   "ma-family/0-dad": {
    "hash": "63270031362b",
@@ -1506,6 +1794,54 @@
    "hash": "047586ce1a17",
    "seconds": 10.27
   },
+  "palindrome-words/0-dad": {
+   "hash": "73c14182a137",
+   "seconds": 19.03
+  },
+  "palindrome-words/0-nian": {
+   "hash": "eeba97d191f8",
+   "seconds": 8.93
+  },
+  "palindrome-words/1-dad": {
+   "hash": "5eb6c80e29b3",
+   "seconds": 25.75
+  },
+  "palindrome-words/1-nian": {
+   "hash": "5236768182ae",
+   "seconds": 7.08
+  },
+  "palindrome-words/2-dad": {
+   "hash": "8e8fd2116e4f",
+   "seconds": 22.58
+  },
+  "palindrome-words/2-nian": {
+   "hash": "1ebed14314b8",
+   "seconds": 6.1
+  },
+  "palindrome-words/3-dad": {
+   "hash": "e96805786315",
+   "seconds": 21.05
+  },
+  "palindrome-words/3-nian": {
+   "hash": "17b27cc0972c",
+   "seconds": 6.5
+  },
+  "palindrome-words/4-dad": {
+   "hash": "600f09b49118",
+   "seconds": 18.82
+  },
+  "palindrome-words/4-nian": {
+   "hash": "f261c4e68d24",
+   "seconds": 7.39
+  },
+  "palindrome-words/5-dad": {
+   "hash": "c4107c8efeff",
+   "seconds": 13.63
+  },
+  "palindrome-words/5-nian": {
+   "hash": "ed9a7311cdb4",
+   "seconds": 16.58
+  },
   "paper-respect/0-dad": {
    "hash": "d022033cc557",
    "seconds": 17.26
@@ -1609,6 +1945,54 @@
   "pig-home/5-nian": {
    "hash": "30d269941ebe",
    "seconds": 12.22
+  },
+  "punctuation-dots/0-dad": {
+   "hash": "f00b5e840abe",
+   "seconds": 22.37
+  },
+  "punctuation-dots/0-nian": {
+   "hash": "4d3f0fd7ec9b",
+   "seconds": 10.15
+  },
+  "punctuation-dots/1-dad": {
+   "hash": "c960e349628c",
+   "seconds": 27.84
+  },
+  "punctuation-dots/1-nian": {
+   "hash": "5300b61adbad",
+   "seconds": 6.5
+  },
+  "punctuation-dots/2-dad": {
+   "hash": "8678f9131c49",
+   "seconds": 25.03
+  },
+  "punctuation-dots/2-nian": {
+   "hash": "8c24acb4cf5a",
+   "seconds": 7.73
+  },
+  "punctuation-dots/3-dad": {
+   "hash": "ed85af4363cc",
+   "seconds": 25.32
+  },
+  "punctuation-dots/3-nian": {
+   "hash": "dad6ad8e5caa",
+   "seconds": 9.84
+  },
+  "punctuation-dots/4-dad": {
+   "hash": "54266941c762",
+   "seconds": 24.77
+  },
+  "punctuation-dots/4-nian": {
+   "hash": "da8dcffcd185",
+   "seconds": 6.26
+  },
+  "punctuation-dots/5-dad": {
+   "hash": "49de5dcd100e",
+   "seconds": 13.42
+  },
+  "punctuation-dots/5-nian": {
+   "hash": "9e13ba80eb67",
+   "seconds": 13.25
   },
   "radical-dictionary/0-dad": {
    "hash": "507d3b42e08b",
@@ -1978,6 +2362,150 @@
    "hash": "74f190c96a8b",
    "seconds": 10.73
   },
+  "shell-money/0-dad": {
+   "hash": "095c96396c39",
+   "seconds": 18.96
+  },
+  "shell-money/0-nian": {
+   "hash": "ed961c7cd827",
+   "seconds": 9.77
+  },
+  "shell-money/1-dad": {
+   "hash": "edb9128a0bb1",
+   "seconds": 30.07
+  },
+  "shell-money/1-nian": {
+   "hash": "8f8fd01b7b51",
+   "seconds": 6.98
+  },
+  "shell-money/2-dad": {
+   "hash": "f4bc24d7dd48",
+   "seconds": 20.69
+  },
+  "shell-money/2-nian": {
+   "hash": "b9114401b3c3",
+   "seconds": 8.35
+  },
+  "shell-money/3-dad": {
+   "hash": "cf4ba48b1fd9",
+   "seconds": 19.15
+  },
+  "shell-money/3-nian": {
+   "hash": "ca73faf6709b",
+   "seconds": 9.02
+  },
+  "shell-money/4-dad": {
+   "hash": "9fefe8d133c6",
+   "seconds": 25.78
+  },
+  "shell-money/4-nian": {
+   "hash": "27e74da0f36b",
+   "seconds": 7.66
+  },
+  "shell-money/5-dad": {
+   "hash": "bc91379cccce",
+   "seconds": 14.4
+  },
+  "shell-money/5-nian": {
+   "hash": "c866a7eac9bb",
+   "seconds": 13.27
+  },
+  "shoot-bow/0-dad": {
+   "hash": "6a101f1e4fb7",
+   "seconds": 14.28
+  },
+  "shoot-bow/0-nian": {
+   "hash": "5a1a3dd8025f",
+   "seconds": 9.6
+  },
+  "shoot-bow/1-dad": {
+   "hash": "e94ad45e2b21",
+   "seconds": 20.33
+  },
+  "shoot-bow/1-nian": {
+   "hash": "671a44771164",
+   "seconds": 6.12
+  },
+  "shoot-bow/2-dad": {
+   "hash": "983c86792f3d",
+   "seconds": 27.24
+  },
+  "shoot-bow/2-nian": {
+   "hash": "38a8339e7630",
+   "seconds": 8.04
+  },
+  "shoot-bow/3-dad": {
+   "hash": "0ca6a7cb6a22",
+   "seconds": 16.46
+  },
+  "shoot-bow/3-nian": {
+   "hash": "5d6d1c8da618",
+   "seconds": 6.74
+  },
+  "shoot-bow/4-dad": {
+   "hash": "4e55f6144cc6",
+   "seconds": 23.11
+  },
+  "shoot-bow/4-nian": {
+   "hash": "db2fa3720d22",
+   "seconds": 7.32
+  },
+  "shoot-bow/5-dad": {
+   "hash": "f4982a066b31",
+   "seconds": 13.22
+  },
+  "shoot-bow/5-nian": {
+   "hash": "98ba0222eff6",
+   "seconds": 12.72
+  },
+  "silkworm-swallow/0-dad": {
+   "hash": "a07b775a0588",
+   "seconds": 17.47
+  },
+  "silkworm-swallow/0-nian": {
+   "hash": "cd80fc351496",
+   "seconds": 7.8
+  },
+  "silkworm-swallow/1-dad": {
+   "hash": "77bb3056bd12",
+   "seconds": 21.31
+  },
+  "silkworm-swallow/1-nian": {
+   "hash": "034b74d94a31",
+   "seconds": 7.61
+  },
+  "silkworm-swallow/2-dad": {
+   "hash": "b6062a05fdfa",
+   "seconds": 22.42
+  },
+  "silkworm-swallow/2-nian": {
+   "hash": "72ddd86e5bd8",
+   "seconds": 7.34
+  },
+  "silkworm-swallow/3-dad": {
+   "hash": "2944f01a3a05",
+   "seconds": 24.19
+  },
+  "silkworm-swallow/3-nian": {
+   "hash": "36953f00a9fd",
+   "seconds": 7.49
+  },
+  "silkworm-swallow/4-dad": {
+   "hash": "20cffa2e296a",
+   "seconds": 21.14
+  },
+  "silkworm-swallow/4-nian": {
+   "hash": "69cca04d40c4",
+   "seconds": 8.18
+  },
+  "silkworm-swallow/5-dad": {
+   "hash": "8f23fa0e28f5",
+   "seconds": 15.19
+  },
+  "silkworm-swallow/5-nian": {
+   "hash": "eb1e879fed84",
+   "seconds": 14.64
+  },
   "simplified/0-dad": {
    "hash": "d22be1cc403e",
    "seconds": 21.19
@@ -2305,6 +2833,54 @@
   "sun-square/6-nian": {
    "hash": "db5c1ac28682",
    "seconds": 10.18
+  },
+  "sunrise-dan/0-dad": {
+   "hash": "2307f25074f9",
+   "seconds": 23.28
+  },
+  "sunrise-dan/0-nian": {
+   "hash": "26dfc0df6696",
+   "seconds": 8.04
+  },
+  "sunrise-dan/1-dad": {
+   "hash": "d911e7c75b5b",
+   "seconds": 26.62
+  },
+  "sunrise-dan/1-nian": {
+   "hash": "eab26dbdef62",
+   "seconds": 6.98
+  },
+  "sunrise-dan/2-dad": {
+   "hash": "340d2d3516bd",
+   "seconds": 19.08
+  },
+  "sunrise-dan/2-nian": {
+   "hash": "bc5e651c99c2",
+   "seconds": 6.98
+  },
+  "sunrise-dan/3-dad": {
+   "hash": "38f3f23db828",
+   "seconds": 25.22
+  },
+  "sunrise-dan/3-nian": {
+   "hash": "dde7851f9c41",
+   "seconds": 8.02
+  },
+  "sunrise-dan/4-dad": {
+   "hash": "0fbafb58ff93",
+   "seconds": 21.19
+  },
+  "sunrise-dan/4-nian": {
+   "hash": "b5fe3776b855",
+   "seconds": 8.54
+  },
+  "sunrise-dan/5-dad": {
+   "hash": "fef7cfad3284",
+   "seconds": 13.75
+  },
+  "sunrise-dan/5-nian": {
+   "hash": "f894ae872e57",
+   "seconds": 11.66
   },
   "sweet-mouth/0-dad": {
    "hash": "459d3a9d7cfc",

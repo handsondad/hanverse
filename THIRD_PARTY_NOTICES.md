@@ -89,6 +89,9 @@ SOFTWARE.
 | `huaisu.jpg` | 唐 怀素《自叙帖》卷尾（局部），台北故宫博物院藏 | `File:Huaisu - Autobiography.jpg` | 公有领域 |
 | `zhiyong.jpg` | 隋 智永《真草千字文》墨迹本（局部） | `File:ZhiYong1000charcter.Color.jpg` | 公有领域 |
 | `nongfang.jpg` | 宋 赵佶《秾芳诗帖》（局部），台北故宫博物院藏 | `File:NongfangShitie.jpg` | 公有领域 |
+| `caoquan.jpg` | 东汉《曹全碑》拓本（局部），西安碑林博物馆藏 | `File:曹全碑.jpg` | 公有领域 |
+| `hezun.jpg` | 西周早期青铜器「何尊」（照片），宝鸡青铜器博物院藏 | `File:Western Zhou Bronze Zun (National Treasure) (9925663654).jpg`，摄影 Gary Todd | CC0 1.0 公有领域贡献（<https://creativecommons.org/publicdomain/zero/1.0/>） |
+| `hezun-ming.jpg` | 西周「何尊」内底铭文拓片 | `File:He zun inscription.jpg` | 公有领域 |
 | `xizi-ting.jpg` | 台中石冈 土牛刘屋老伙房的惜字亭（照片） | `File:土牛劉屋老夥房惜字亭.jpg`，作者 Outlookxp | CC BY 4.0（<https://creativecommons.org/licenses/by/4.0/>），本项目缩小了尺寸 |
 
 原文件页面：`https://commons.wikimedia.org/wiki/` 后接上表里的文件名。

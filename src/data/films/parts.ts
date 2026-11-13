@@ -137,6 +137,75 @@ export const films: readonly Film[] = [
     ]
   },
   {
+    question: "shell-money",
+    scenes: [
+      {
+        turn: 0, title: "拿海贝当钱用", duration: 12,
+        cues: [
+          { kind: "glyph", char: "买", at: [220, 300], size: 170, from: 0.3, to: 4.8 },
+          { kind: "glyph", char: "卖", at: [470, 300], size: 170, from: 0.6, to: 4.8 },
+          { kind: "glyph", char: "贵", at: [730, 300], size: 170, from: 0.9, to: 4.8 },
+          { kind: "glyph", char: "财", at: [980, 300], size: 170, from: 1.2, to: 4.8 },
+          { kind: "text", at: [600, 560], text: "全都藏着一个「贝」", color: red, from: 2.0, to: 4.8 },
+          { kind: "evolve", at: [600, 380], size: 290, every: 1.6, from: 5.0, forms: [{ icon: "🐚", label: "海贝" }, { script: "oracle", char: "貝" }, { script: "seal", char: "貝" }, { script: "kai", char: "贝" }] },
+          { kind: "text", at: [600, 800], text: "商朝周朝：海贝就是钱", from: 8.6 }
+        ]
+      },
+      {
+        turn: 1, title: "两串贝壳是一朋", duration: 12,
+        cues: [
+          { kind: "text", at: [600, 110], text: "南方海里的货贝，很珍贵", from: 0.3, to: 5.6 },
+          { kind: "sprite", icon: "🐚", path: [[250, 380]], size: 150, from: 0.6, to: 5.6 },
+          { kind: "count", at: [760, 380], label: "妇好墓海贝", start: 0, end: 6800, unit: "多枚", over: 2.2, from: 1.4, to: 5.8 },
+          { kind: "glyph", char: "朋", script: "oracle", at: [380, 390], size: 260, caption: "甲骨文的朋", from: 6.0 },
+          { kind: "glyph", char: "朋", script: "seal", at: [820, 390], size: 240, caption: "小篆的朋", from: 7.2 },
+          { kind: "label", at: [380, 260], text: "五个一串，两串一朋", side: "top", pos: [380, 160], color: red, from: 6.6 },
+          { kind: "text", at: [600, 800], text: "「朋友」的朋：两串贝壳", from: 8.8 }
+        ]
+      },
+      {
+        turn: 2, title: "捡贝壳与掏贝壳", duration: 13,
+        cues: [
+          { kind: "glyph", char: "貝", script: "oracle", at: [240, 380], size: 190, color: red, caption: "海贝", path: [[380, 380]], travel: 1.3, from: 0.4, to: 3.4 },
+          { kind: "glyph", char: "又", script: "oracle", at: [760, 380], size: 190, caption: "手去捡", path: [[620, 380]], travel: 1.3, from: 0.6, to: 3.4 },
+          { kind: "glyph", char: "得", script: "oracle", at: [400, 380], size: 260, caption: "路上捡到贝", from: 3.4, to: 6.4 },
+          { kind: "glyph", char: "得", at: [820, 380], size: 240, caption: "得到", from: 4.0, to: 6.4 },
+          { kind: "glyph", char: "网", script: "oracle", at: [260, 210], size: 150, path: [[260, 290]], travel: 1.0, from: 6.6, to: 8.6 },
+          { kind: "glyph", char: "貝", script: "oracle", at: [260, 570], size: 150, color: red, path: [[260, 490]], travel: 1.0, from: 6.8, to: 8.6 },
+          { kind: "glyph", char: "買", script: "oracle", at: [260, 390], size: 230, caption: "甲骨文的买", from: 8.6 },
+          { kind: "glyph", char: "买", at: [580, 390], size: 210, caption: "今天的买", from: 9.2 },
+          { kind: "glyph", char: "貴", script: "seal", at: [920, 390], size: 230, color: red, caption: "双手捧贝：贵", from: 9.8 },
+          { kind: "text", at: [600, 800], text: "掏贝壳去买，捧着贝很贵", from: 10.4 }
+        ]
+      },
+      {
+        turn: 3, title: "分掉贝与惦记贝", duration: 12,
+        cues: [
+          { kind: "glyph", char: "分", script: "oracle", at: [330, 190], size: 140, path: [[330, 280]], travel: 1.1, from: 0.4, to: 2.8 },
+          { kind: "glyph", char: "貝", script: "oracle", at: [330, 560], size: 140, color: red, path: [[330, 460]], travel: 1.1, from: 0.6, to: 2.8 },
+          { kind: "glyph", char: "贫", at: [330, 380], size: 240, caption: "贝壳分完了", from: 2.8 },
+          { kind: "text", at: [330, 140], text: "分 + 贝", size: "s", from: 3.0 },
+          { kind: "glyph", char: "今", at: [870, 190], size: 140, path: [[870, 280]], travel: 1.1, from: 4.4, to: 6.8 },
+          { kind: "glyph", char: "貝", script: "oracle", at: [870, 560], size: 140, color: red, path: [[870, 460]], travel: 1.1, from: 4.6, to: 6.8 },
+          { kind: "glyph", char: "贪", at: [870, 380], size: 240, caption: "老惦记着贝", from: 6.8 },
+          { kind: "text", at: [870, 140], text: "今 + 贝", size: "s", from: 7.0 },
+          { kind: "text", at: [600, 800], text: "贝分掉变穷，想要没完是贪", from: 8.6 }
+        ]
+      },
+      {
+        turn: 4, title: "从海贝到金属钱", duration: 12,
+        cues: [
+          { kind: "sprite", icon: "🐚", path: [[190, 340]], size: 130, from: 0.4 },
+          { kind: "arrow", path: [[290, 340], [420, 340]], text: "铜贝·铸币", from: 1.4 },
+          { kind: "sprite", icon: "🪙", path: [[520, 340]], size: 130, from: 2.0 },
+          { kind: "glyph", char: "錢", script: "seal", at: [780, 340], size: 200, caption: "小篆的钱", from: 3.4 },
+          { kind: "glyph", char: "钱", at: [1030, 340], size: 200, color: meaning, caption: "金字旁", from: 4.4 },
+          { kind: "myth", wrong: "古人一直用金银铜钱买东西", right: "最早用海贝，后来才改用金属钱", from: 6.8 }
+        ]
+      }
+    ]
+  },
+  {
     question: "radical-dictionary",
     scenes: [
       {

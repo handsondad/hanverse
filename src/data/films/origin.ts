@@ -404,5 +404,75 @@ export const films: readonly Film[] = [
         ]
       }
     ]
+  },
+  {
+    question: "decode-oracle",
+    scenes: [
+      {
+        turn: 0, title: "倒着往回比长相", duration: 12,
+        cues: [
+          { kind: "text", at: [600, 100], text: "第一步：倒着往回找", from: 0.3 },
+          { kind: "glyph", char: "车", script: "kai", at: [940, 390], size: 200, caption: "今天的车", from: 0.6 },
+          { kind: "arrow", path: [[820, 390], [700, 390]], from: 1.6, to: 7 },
+          { kind: "glyph", char: "車", script: "seal", at: [580, 390], size: 210, caption: "秦朝小篆", from: 2.2 },
+          { kind: "arrow", path: [[460, 390], [340, 390]], from: 3.4, to: 7 },
+          { kind: "glyph", char: "車", script: "oracle", at: [220, 390], size: 220, caption: "商朝甲骨文", from: 4 },
+          { kind: "sprite", icon: "🔍", path: [[660, 600], [330, 320]], size: 100, travel: 1.8, from: 7.2 },
+          { kind: "text", at: [600, 800], text: "1904 年 · 孙诒让", from: 8.6 }
+        ]
+      },
+      {
+        turn: 1, title: "放进占卜句子里", view: "shell", duration: 12,
+        cues: [
+          { kind: "sprite", icon: "⛏️", path: [[170, 340]], size: 100, from: 0.3, to: 4.6 },
+          { kind: "text", at: [600, 110], text: "河南安阳 · 殷墟", from: 0.5, to: 4.6 },
+          { kind: "glyph", char: "王", script: "oracle", at: [560, 250], size: 140, from: 1.4 },
+          { kind: "glyph", char: "卜", script: "oracle", at: [560, 420], size: 140, from: 2.2 },
+          { kind: "glyph", char: "馬", script: "oracle", at: [560, 590], size: 140, from: 3 },
+          { kind: "highlight", at: [560, 420], size: [180, 500], color: "#ff9f43", from: 4.8, to: 8.6 },
+          { kind: "label", at: [640, 420], text: "放进整句话里核对", side: "right", from: 5.2, to: 8.6 },
+          { kind: "text", at: [600, 810], text: "罗振玉：读通了占卜句子", from: 8.8 }
+        ]
+      },
+      {
+        turn: 2, title: "拼起碎骨对《史记》", duration: 13,
+        cues: [
+          { kind: "shape", shape: "rect", at: [420, 425], size: [230, 400], color: "none", outline: true, from: 2.4 },
+          { kind: "glyph", char: "王", script: "oracle", at: [240, 240], size: 160, path: [[420, 320]], travel: 1.8, from: 0.4 },
+          { kind: "glyph", char: "亥", script: "oracle", at: [240, 630], size: 160, path: [[420, 530]], travel: 1.8, from: 0.6 },
+          { kind: "line", path: [[305, 425], [420, 412], [535, 428]], color: crack, width: 5, draw: 0.5, from: 2.4 },
+          { kind: "label", at: [535, 425], text: "缀合：碎骨拼回一块", side: "right", from: 2.8, to: 6.4 },
+          { kind: "arrow", path: [[560, 425], [750, 425]], text: "名字对上了", from: 6.6, to: 9.2 },
+          { kind: "glyph", char: "史", script: "seal", at: [890, 425], size: 220, caption: "《史记》排班表", from: 6.8 },
+          { kind: "text", at: [600, 110], text: "1917 年：王国维缀合", from: 9.2 }
+        ]
+      },
+      {
+        turn: 3, title: "为什么不能看图乱猜", duration: 12,
+        cues: [
+          { kind: "count", at: [360, 340], label: "找到的甲骨", start: 0, end: 150000, unit: "片", from: 0.4, to: 5.4 },
+          { kind: "sprite", icon: "❓", path: [[820, 340]], size: 130, wobble: true, from: 1.6, to: 5.4 },
+          { kind: "label", at: [820, 420], text: "消失的人名和地名", side: "bottom", from: 2.2, to: 5.4 },
+          { kind: "glyph", char: "上", script: "oracle", at: [360, 340], size: 180, from: 5.6 },
+          { kind: "glyph", char: "甲", script: "oracle", at: [600, 340], size: 180, from: 6 },
+          { kind: "sprite", icon: "🔍", path: [[840, 340]], size: 120, from: 6.4 },
+          { kind: "myth", wrong: "认甲骨文靠看图猜一猜就行", right: "字形、句子和古书全对上才算数", from: 6.8 },
+          { kind: "text", at: [600, 110], text: "线索太少，不能硬猜", from: 7.4 }
+        ]
+      },
+      {
+        turn: 4, title: "电脑帮着拼甲骨", view: "shell", duration: 12,
+        cues: [
+          { kind: "sprite", icon: "💻", path: [[170, 440]], size: 120, from: 0.4 },
+          { kind: "glyph", char: "馬", script: "oracle", at: [480, 330], size: 170, from: 1 },
+          { kind: "glyph", char: "車", script: "oracle", at: [700, 530], size: 170, from: 1.6 },
+          { kind: "line", path: [[370, 430], [580, 415], [810, 440]], color: "#ff9f43", width: 6, draw: 1, from: 2.4 },
+          { kind: "pulse", at: [580, 415], color: "#ff7a2f", radius: 130, from: 3.6, to: 7.8 },
+          { kind: "label", at: [580, 415], text: "比对裂缝和字迹", side: "top", from: 4, to: 7.8 },
+          { kind: "sprite", icon: "🧩", path: [[1030, 440]], size: 110, from: 8 },
+          { kind: "text", at: [600, 810], text: "电脑帮忙找新线索", from: 8.4 }
+        ]
+      }
+    ]
   }
 ];
