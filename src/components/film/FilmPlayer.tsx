@@ -61,17 +61,46 @@ export const FilmPlayer = forwardRef<FilmPlayerHandle, Props>(function FilmPlaye
   const autoStarted = useRef(false);
   const playerId = useId();
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const audioSrc = useRef("");
+  /** 放这一句时，另一个播放器先把下一句拿下来，换句时不用等网络 */
+  const spareRef = useRef<HTMLAudioElement | null>(null);
+  const spareSrc = useRef("");
+  /** 拿不到的配音（404、断网）记下来，这一句就无声走过去，不要来回重试 */
+  const broken = useRef(new Set<string>());
   /** 正在放的那句配音；放着的时候动画的时钟跟着声音走 */
   const clipRef = useRef<SpokenLine | null>(null);
   const { index, local } = sceneAt(active, time);
   const scene = active.scenes[index];
   const ended = time >= total;
 
-  const audio = () => (audioRef.current ??= Object.assign(new Audio(), { preload: "auto" }));
+  const newClip = () => {
+    const element = Object.assign(new Audio(), { preload: "auto" });
+    element.addEventListener("error", () => {
+      const src = element.getAttribute("src");
+      if (src) broken.current.add(src);
+    });
+    return element;
+  };
 
   const stopVoice = useCallback(() => {
     clipRef.current = null;
     audioRef.current?.pause();
+  }, []);
+
+  /** 让 audioRef 装上这一句；另一个播放器已经预取好了就直接换过来 */
+  const takeClip = useCallback((src: string) => {
+    if (src !== audioSrc.current) {
+      audioRef.current?.pause();
+      if (spareRef.current && spareSrc.current === src) {
+        [audioRef.current, spareRef.current] = [spareRef.current, audioRef.current];
+        spareSrc.current = "";
+      } else {
+        audioRef.current ??= newClip();
+        audioRef.current.src = src;
+      }
+      audioSrc.current = src;
+    }
+    return audioRef.current!;
   }, []);
 
   /** 从 at 秒开始放那时该说的话；在点击里直接调用，手机浏览器才肯出声 */
@@ -79,20 +108,42 @@ export const FilmPlayer = forwardRef<FilmPlayerHandle, Props>(function FilmPlaye
     const found = voice && lineAt(lines, at);
     if (!voice || !found?.speaking) {
       stopVoice();
+      // 点在两句话中间的空当：先在这次点击里把下一句放一下再停住，iPhone 才肯让它过一会儿自己开口
+      const upcoming = voice && lines.find((line) => line.start > at);
+      const upcomingSrc = upcoming ? voice.src(upcoming.turn, upcoming.who) : "";
+      if (upcomingSrc && !broken.current.has(upcomingSrc)) {
+        const player = takeClip(upcomingSrc);
+        player.currentTime = 0;
+        player.play().catch(() => {});
+        player.pause();
+      }
       return;
     }
-    const player = audio();
+    const src = voice.src(found.line.turn, found.line.who);
+    if (broken.current.has(src)) {
+      stopVoice();
+      return;
+    }
+    const player = takeClip(src);
     clipRef.current = found.line;
-    player.src = voice.src(found.line.turn, found.line.who);
     player.currentTime = Math.max(at - found.line.start, 0);
     claimVoice(playerId);
     player.play().catch((error: unknown) => {
-      if (error instanceof DOMException && error.name === "NotAllowedError") {
+      if (!(error instanceof DOMException)) return;
+      if (error.name === "NotSupportedError") broken.current.add(src);
+      if (error.name === "NotAllowedError") {
         setPlaying(false);
         setNeedsTap(true);
       }
     });
-  }, [voice, lines, stopVoice, playerId]);
+    const after = lines[lines.indexOf(found.line) + 1];
+    const nextSrc = after ? voice.src(after.turn, after.who) : "";
+    if (nextSrc && nextSrc !== spareSrc.current && nextSrc !== src && !broken.current.has(nextSrc)) {
+      spareRef.current ??= newClip();
+      spareRef.current.src = nextSrc;
+      spareSrc.current = nextSrc;
+    }
+  }, [voice, lines, stopVoice, playerId, takeClip]);
 
   useEffect(() => {
     const quiet = () => {
@@ -132,7 +183,11 @@ export const FilmPlayer = forwardRef<FilmPlayerHandle, Props>(function FilmPlaye
     stopVoice();
   }, [film, stopVoice]);
 
-  useEffect(() => () => stopVoice(), [stopVoice]);
+  useEffect(() => () => {
+    stopVoice();
+    spareRef.current?.removeAttribute("src");
+    spareSrc.current = "";
+  }, [stopVoice]);
 
   useEffect(() => {
     if (inView && !autoStarted.current) {
@@ -154,7 +209,7 @@ export const FilmPlayer = forwardRef<FilmPlayerHandle, Props>(function FilmPlaye
       setTime((current) => {
         const clip = clipRef.current;
         const player = audioRef.current;
-        if (clip && player && !player.paused && !player.ended) {
+        if (clip && player && !player.paused && !player.ended && !player.error) {
           if (player.readyState < HTMLMediaElement.HAVE_FUTURE_DATA) return current;
           return Math.min(clip.start + player.currentTime, total);
         }
