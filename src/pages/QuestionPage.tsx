@@ -3,7 +3,7 @@ import { Avatar } from "../components/Avatar";
 import { FilmPlayer, type FilmPlayerHandle } from "../components/film/FilmPlayer";
 import { characterNames as names, type CharacterId } from "../data/characters";
 import { filmFor } from "../data/films";
-import { difficultyLabel, nextQuestions, topicById, type BeatShow, type ZiQuestion } from "../data/questions";
+import { difficultyLabel, nextQuestions, topicById, type BeatShow, type TopicId, type ZiQuestion } from "../data/questions";
 import { voiceFor } from "../data/voice";
 import { useInView } from "../hooks/useInView";
 import type { Speaker } from "../lib/narration";
@@ -14,6 +14,8 @@ type Props = {
   question: ZiQuestion;
   heard: readonly string[];
   onHeard: (id: string) => void;
+  /** 返回键回到的主题：从查字页跳过来时不一定是这一问自己的主题 */
+  backTopic: TopicId;
   onBack: () => void;
   onOpen: (id: string) => void;
   onZi: (char: string) => void;
@@ -64,8 +66,8 @@ function Show({ show }: { show: BeatShow }) {
   }
 }
 
-export function QuestionPage({ question, heard, onHeard, onBack, onOpen, onZi }: Props) {
-  const topic = topicById(question.topic);
+export function QuestionPage({ question, heard, onHeard, backTopic, onBack, onOpen, onZi }: Props) {
+  const topic = topicById(backTopic);
   const film = filmFor(question.id);
   const voice = useMemo(() => voiceFor(question), [question]);
   const filmTurns = new Set(film?.scenes.map((scene) => scene.turn));

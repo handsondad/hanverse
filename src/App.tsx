@@ -1,11 +1,14 @@
 import { lazy, Suspense, useEffect, useRef, useState } from "react";
 import { questionById, topicById, type TopicId } from "./data/questions";
+import { PageBoundary } from "./components/PageBoundary";
 import { useHeardQuestions } from "./hooks/useHeardQuestions";
 import { HomePage } from "./pages/HomePage";
 import { QuestionListPage } from "./pages/QuestionListPage";
-import { QuestionPage } from "./pages/QuestionPage";
 
 const ZiPage = lazy(() => import("./pages/ZiPage"));
+/** 动画、笔顺、配音清单都跟着问答页走，首页和列表页不用先下载 */
+const loadQuestionPage = () => import("./pages/QuestionPage");
+const QuestionPage = lazy(() => loadQuestionPage().then((module) => ({ default: module.QuestionPage })));
 
 type Route =
   | { page: "home" }
@@ -13,9 +16,18 @@ type Route =
   | { page: "question"; id: string }
   | { page: "zi"; char?: string };
 
+function decodeParam(raw: string) {
+  try {
+    return decodeURIComponent(raw);
+  } catch {
+    // 断掉的分享链接（比如汉字的编码被截了半截）解不开，当成没写参数，不要整页白屏
+    return undefined;
+  }
+}
+
 function parseRoute(hash: string): Route {
   const [, page, rawParam] = hash.replace(/^#/, "").split("/");
-  const param = rawParam ? decodeURIComponent(rawParam) : undefined;
+  const param = rawParam ? decodeParam(rawParam) : undefined;
   if (page === "topic" && param && topicById(param)) return { page: "list", topic: param as TopicId };
   if (page === "q" && param && questionById(param)) return { page: "question", id: param };
   if (page === "zi") return { page: "zi", char: param ? [...param][0] : undefined };
@@ -48,6 +60,8 @@ function App() {
       lastQuestion.current = null;
     }
     if (route.page === "question") lastQuestion.current = route.id;
+    // 到了能点进问题的页面，就先把问答页取回来，点下去不用等
+    if (route.page === "list" || route.page === "zi") loadQuestionPage().catch(() => {});
     window.scrollTo(0, 0);
   }, [route]);
 
@@ -61,8 +75,12 @@ function App() {
     if (question) {
       const back = lastList.current ?? question.topic;
       return (
-        <QuestionPage key={question.id} question={question} heard={heard} onHeard={markHeard}
-          onBack={() => go(listHash(back))} onOpen={openQuestion} onZi={openZi} />
+        <PageBoundary>
+          <Suspense fallback={<p className="zi-loading">🎬 正在准备动画……</p>}>
+            <QuestionPage key={question.id} question={question} heard={heard} onHeard={markHeard}
+              backTopic={back} onBack={() => go(listHash(back))} onOpen={openQuestion} onZi={openZi} />
+          </Suspense>
+        </PageBoundary>
       );
     }
   }
@@ -75,11 +93,13 @@ function App() {
   if (route.page === "zi") {
     const fromQuestion = lastQuestion.current ? questionById(lastQuestion.current) : undefined;
     return (
-      <Suspense fallback={<p className="zi-loading">📜 正在翻字典……</p>}>
-        <ZiPage char={route.char} onZi={openZi} onOpen={openQuestion}
-          onBack={fromQuestion ? () => openQuestion(fromQuestion.id) : goHome}
-          backLabel={fromQuestion ? "回到小念的问题" : "回到首页"} />
-      </Suspense>
+      <PageBoundary>
+        <Suspense fallback={<p className="zi-loading">📜 正在翻字典……</p>}>
+          <ZiPage char={route.char} onZi={openZi} onOpen={openQuestion}
+            onBack={fromQuestion ? () => openQuestion(fromQuestion.id) : goHome}
+            backLabel={fromQuestion ? "回到小念的问题" : "回到首页"} />
+        </Suspense>
+      </PageBoundary>
     );
   }
   return <HomePage heard={heard} onTopic={(id) => go(listHash(id))} onZi={openZi} />;

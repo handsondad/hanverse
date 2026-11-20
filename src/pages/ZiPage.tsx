@@ -18,6 +18,26 @@ function loadZiData(): Promise<ZiData> {
 
 const quick = ["马", "日", "月", "山", "水", "人", "休", "家", "明", "鱼", "鸟", "车", "龟", "雨", "为", "字"];
 
+type FontState = "loading" | "ready" | "failed";
+
+/**
+ * font-display:block 只空等 3 秒左右，之后就先露出系统字体。完整小篆 8 MB 多，慢网上要等更久，
+ * 所以字体真到了再显示古文字，免得把普通的字当成小篆给孩子看
+ */
+function useFontReady(family: string, needed: boolean): FontState {
+  const [state, setState] = useState<FontState>(() => (document.fonts.check(`1em "${family}"`) ? "ready" : "loading"));
+  useEffect(() => {
+    if (!needed || state !== "loading") return;
+    let live = true;
+    document.fonts.load(`1em "${family}"`).then(
+      (faces) => live && setState(faces.length ? "ready" : "failed"),
+      () => live && setState("failed")
+    );
+    return () => { live = false; };
+  }, [family, needed, state]);
+  return state;
+}
+
 type Stage = { key: string; name: string; era: string; char?: string; family: string; missing: string };
 
 function stagesOf(zi: ZiLookup): Stage[] {
@@ -57,6 +77,10 @@ export default function ZiPage({ char = "马", onZi, onOpen, onBack, backLabel }
   const zi = data ? lookupZi(data, char) : undefined;
   const hasAncient = Boolean(zi && (zi.oracleChar || zi.sealChar));
   const talked = questionsAbout(char);
+  const fonts: Partial<Record<string, FontState>> = {
+    oracle: useFontReady("HanOracle", Boolean(zi?.oracleChar)),
+    seal: useFontReady("HanSealFull", Boolean(zi?.sealChar))
+  };
 
   useEffect(() => {
     if (step === null || step >= 2) return;
@@ -97,15 +121,21 @@ export default function ZiPage({ char = "马", onZi, onOpen, onBack, backLabel }
         <>
           <section className="zi-life" aria-label={`「${char}」字的一生`}>
             <ol>
-              {stagesOf(zi).map((stage, index) => (
-                <li key={stage.key} className={step === null ? "" : index <= step ? "is-on" : "is-later"} style={{ "--i": index } as CSSProperties}>
-                  <span className={stage.char ? "zi-glyph" : "zi-glyph is-missing"} style={{ fontFamily: stage.family }}>
-                    {stage.char ?? "？"}
-                  </span>
-                  <strong>{stage.name}</strong>
-                  <small>{stage.char ? stage.era : stage.missing}</small>
-                </li>
-              ))}
+              {stagesOf(zi).map((stage, index) => {
+                const font = fonts[stage.key] ?? "ready";
+                const shown = Boolean(stage.char) && font === "ready";
+                return (
+                  <li key={stage.key} className={step === null ? "" : index <= step ? "is-on" : "is-later"} style={{ "--i": index } as CSSProperties}>
+                    <span className={shown ? "zi-glyph" : "zi-glyph is-missing"} style={{ fontFamily: stage.family }}>
+                      {shown ? stage.char : stage.char && font === "loading" ? "⏳" : "？"}
+                    </span>
+                    <strong>{stage.name}</strong>
+                    <small>
+                      {!stage.char ? stage.missing : font === "loading" ? "古文字字体还在下载……" : font === "failed" ? "字体没下载下来，刷新一下再试试" : stage.era}
+                    </small>
+                  </li>
+                );
+              })}
             </ol>
             <div className="zi-life-foot">
               {zi.traditional !== zi.char ? (

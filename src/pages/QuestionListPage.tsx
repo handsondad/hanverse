@@ -1,6 +1,5 @@
 import type { CSSProperties } from "react";
 import { Avatar } from "../components/Avatar";
-import { filmFor } from "../data/films";
 import { difficultyLabel, questionsIn, topicById, topics, type Difficulty, type TopicId, type ZiQuestion } from "../data/questions";
 import "./Questions.css";
 
@@ -28,7 +27,7 @@ function QuestionCard({ question, heard, onOpen }: { question: ZiQuestion; heard
       <small className="qlist-trigger">{question.trigger}</small>
       <span className="qlist-badges">
         <em>💬 {question.dialogue.length} 问 {question.dialogue.length} 答</em>
-        {filmFor(question.id) && <em>🎬 有动画</em>}
+        <em>🎬 有动画</em>
         {heard && <em className="is-star">⭐ 看过</em>}
         <em className="is-chars">{question.chars.slice(0, 6).join(" ")}</em>
       </span>
